@@ -1,8 +1,10 @@
 # The environment class creates an environment of Nodes (see Node.py). Each node is "told" the node in front
 # and behind it (unless it is the starting or ending node). Nodes are dynamically created based on the constructor
-# argument. These nodes are held in a list of nodes.
+# argument. These nodes are held in a list of nodes. The environment is capable of tracking the performance
+# of the agent.
 
 from Node import Node
+import csv
 
 
 class Environment(object):
