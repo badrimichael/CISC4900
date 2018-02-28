@@ -4,12 +4,12 @@
 # of the agent.
 
 from Node import Node
-import csv
 
 
 class Environment(object):
     # Empty list of nodes to be populated.
     nodes = []
+    starting_node = None
 
     # Constructor that instantiates nodes based on num_of_states
     # argument. The prev and next of each node is determined here.
@@ -22,8 +22,7 @@ class Environment(object):
             if node.state == 0:
                 node.set_next(nodes[1])
             elif node.state == num_of_states - 1:
-                node.prev == nodes[num_of_states - 2]
                 node.add_reward()
             else:
-                node.set_prev(nodes[node.state - 1])
                 node.set_next(nodes[node.state + 1])
+        self.starting_node = nodes[0]

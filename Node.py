@@ -8,7 +8,6 @@
 class Node(object):
     state = None
     next = None
-    prev = None
     reward = False
 
     # Constructor that assigns a state
@@ -19,9 +18,6 @@ class Node(object):
     # Set methods for nodes.
     def set_next(self, next):
         self.next = next
-
-    def set_prev(self, prev):
-        self.prev = prev
 
     # Set reward of node to True.
     def add_reward(self):

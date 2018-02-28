@@ -32,7 +32,7 @@ class RandomAgent(Agent):
     # when the RNG rolls a 1. If the RNG rolls any other number,
     # the random agent is sent back to the initial state.
     def traverse(self, environment):
-        self.current_node = environment.nodes[0]
+        self.current_node = environment.starting_node
         print("Random agent entered environment. (State 0)")
         while self.reward is False:
             random_surge = random.uniform(0, 1)

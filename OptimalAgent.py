@@ -26,7 +26,7 @@ class OptimalAgent(Agent):
     # from one state to another and is incapable
     # of surging forward.
     def traverse(self, environment):
-        self.current_node = environment.nodes[0]
+        self.current_node = environment.starting_node
         print("Optimal agent entered environment. (State 0)")
         while self.reward is False:
             self.set_current_node(self.current_node.next)
