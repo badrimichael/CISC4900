@@ -26,3 +26,7 @@ class Environment(object):
             else:
                 node.set_next(nodes[node.state + 1])
         self.starting_node = nodes[0]
+
+    def print(self):
+        for node in self.nodes:
+            print(node)

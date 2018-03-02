@@ -24,5 +24,6 @@ class Node(object):
         self.reward = True
 
     # Print the node's state.
-    def print(self):
-        print("Node " + str(self.state))
+    # Like overriding toString() in Java.
+    def __str__(self):
+        return "Node " + str(self.state)

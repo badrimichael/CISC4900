@@ -52,6 +52,6 @@ class RandomAgent(Agent):
                 print("Random agent moved to state " + str(self.current_node.state) + ".")
             else:
                 self.current_node = environment.nodes[0]
-                print("Random agent moved back to state 0.")
+                print("Random agent returned to state 0.")
         else:
             print("Random agent obtained reward.\n")

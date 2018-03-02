@@ -13,11 +13,13 @@ from RandomAgent import RandomAgent
 from OptimalAgent import OptimalAgent
 
 # Create an environment consisting of 10 nodes.
-environment = Environment(10)
+environment = Environment(4)
 # Creates a random agent with probability of surging as the argument.
 # Creates an optimal agent.
 agent = RandomAgent(0.01)
 agent2 = OptimalAgent()
+
 # Both agents traverse the same environment in two different ways.
 agent.traverse(environment)
 agent2.traverse(environment)
+environment.print()
