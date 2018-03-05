@@ -1,0 +1,1194 @@
+C:\Users\tt5sk\AppData\Local\Programs\Python\Python36\python.exe "C:/Users/tt5sk/Google Drive/Brooklyn College/CISC 4900/4900 Workspace/main.py"
+Node 0
+Node 1
+Node 2
+Node 3
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 1: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 2: Reward = 0
+Steps taken: 25
+
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Episode 3: Reward = 0
+Steps taken: 25
+
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Episode 4: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Episode 5: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 6: Reward = 0
+Steps taken: 25
+
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Episode 7: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 8: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 9: Reward = 0
+Steps taken: 25
+
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 10: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Episode 11: Reward = 0
+Steps taken: 25
+
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Episode 12: Reward = 0
+Steps taken: 25
+
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Episode 13: Reward = 0
+Steps taken: 25
+
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Episode 14: Reward = 0
+Steps taken: 25
+
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Episode 15: Reward = 0
+Steps taken: 25
+
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Episode 16: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Episode 17: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Episode 18: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Episode 19: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+RNG rolled 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 20: Reward = 100
+Steps taken: 24
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 21: Reward = 100
+Steps taken: 20
+
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+Best action from experience is 0
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 3
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+RNG rolled 2
+Agent moved to starting node.
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 1
+Agent moved to node 1
+RNG rolled 2
+Agent moved to starting node.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 22: Reward = 100
+Steps taken: 21
+
+Best action from experience is 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+RNG rolled 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 23: Reward = 100
+Steps taken: 5
+
+Best action from experience is 1
+Agent moved to node 1
+RNG rolled 0
+Agent moved to starting node.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 24: Reward = 100
+Steps taken: 5
+
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 25: Reward = 100
+Steps taken: 3
+
+
+Process finished with exit code 0

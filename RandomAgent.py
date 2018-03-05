@@ -9,7 +9,7 @@ from Agent import Agent
 # See Agent.py.
 class RandomAgent(Agent):
     probability_of_surge = None
-    current_node = None
+    current_state = None
     reward = False
 
     # Constructor that assigns a probability to surge.
@@ -18,12 +18,12 @@ class RandomAgent(Agent):
         self.probability_of_surge = probability_of_surge
 
     # See Agent.py.
-    def set_current_node(self, current_node):
-        self.current_node = current_node
+    def set_current_state(self, current_state):
+        self.current_state = current_state
 
     # See Agent.py.
-    def set_reward(self):
-        self.reward = True
+    def set_reward(self, reward_value):
+        self.reward = reward_value
 
     # See Agent.py.
     # If the random agent is at the initial node,
@@ -32,26 +32,27 @@ class RandomAgent(Agent):
     # when the RNG rolls a 1. If the RNG rolls any other number,
     # the random agent is sent back to the initial state.
     def traverse(self, environment):
-        self.current_node = environment.starting_node
+        self.current_state = environment.starting_node
         print("Random agent entered environment. (State 0)")
         while self.reward is False:
             random_surge = random.uniform(0, 1)
-            if self.current_node.state == 0:
+            if self.current_state.state == 0:
                 if random_surge < self.probability_of_surge:
-                    self.current_node = environment.nodes[random.randint(1, len(environment.nodes) - 1)]
-                    self.reward = self.current_node.reward
-                    print("Random agent surged to state " + str(self.current_node.state) + ".")
+                    self.current_state = environment.nodes[random.randint(1, len(environment.nodes) - 1)]
+                    self.set_reward(self.current_state.reward)
+                    print("Random agent surged to state " + str(self.current_state.state) + ".")
                     continue
                 else:
-                    self.current_node = self.current_node.next
-                    print("Random agent moved to state " + str(self.current_node.state) + ".")
+                    self.current_state = self.current_state.next
+                    print("Random agent moved to state " + str(self.current_state.state) + ".")
             random_advance = random.randint(0, len(environment.nodes))
             if random_advance == 1:
-                self.current_node = self.current_node.next
-                self.reward = self.current_node.reward
-                print("Random agent moved to state " + str(self.current_node.state) + ".")
+                self.current_state = self.current_state.next
+                self.set_reward(self.current_state.reward)
+
+                print("Random agent moved to state " + str(self.current_state.state) + ".")
             else:
-                self.current_node = environment.nodes[0]
+                self.current_state = environment.nodes[0]
                 print("Random agent returned to state 0.")
         else:
             print("Random agent obtained reward.\n")
