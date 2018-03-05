@@ -12,6 +12,7 @@ from Environment import Environment
 from RandomAgent import RandomAgent
 from OptimalAgent import OptimalAgent
 from QAgent import QAgent
+from SarsaAgent import SarsaAgent
 
 # Create an environment consisting of 10 nodes.
 environment = Environment(4)
@@ -20,9 +21,11 @@ environment = Environment(4)
 # agent = RandomAgent(0.01)
 # agent2 = OptimalAgent()
 agent3 = QAgent()
+agent4 = SarsaAgent()
 
 # Both agents traverse the same environment in two different ways.
-environment.print()
+# environment.print()
 # agent.traverse(environment)
 # agent2.traverse(environment)
 agent3.traverse(environment)
+agent4.traverse(environment)
