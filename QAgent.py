@@ -68,6 +68,7 @@ class QAgent(Agent):
 
     # See Agent.py
     def traverse(self, environment):
+        print("Q-learning Agent:")
         # Initialize possible actions based on environment size.
         for node in environment.nodes:
             self.actions.append(node.state)

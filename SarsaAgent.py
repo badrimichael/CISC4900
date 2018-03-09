@@ -68,6 +68,7 @@ class SarsaAgent(Agent):
 
     # See Agent.py
     def traverse(self, environment):
+        print("Sarsa Agent:")
         # Initialize possible actions based on environment size.
         for node in environment.nodes:
             self.actions.append(node.state)
@@ -109,10 +110,10 @@ class SarsaAgent(Agent):
                 total_reward += reward
                 self.q(state)[action] = self.q(state, action) + alpha * (
                         reward + self.gamma * self.q(next_state, next_action) - self.q(state, action))
-                state = next_state
-                action = next_action
                 if terminal_state:
                     print("Agent obtained reward.")
                     break
+                state = next_state
+                action = next_action
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
