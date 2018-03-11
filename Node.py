@@ -1,7 +1,7 @@
-# The Node class describes doubly-linked nodes that are the building blocks of an environment. Nodes are simple,
-# they point to the node in front and behind them, hold a number representing their state, and a boolean that
-# indicates whether or not the node has a reward. Only the last node in the environment has a reward for an agent.
-# A basic node is only given a state through the constructor. The previous, next, and reward fields are determined
+# The Node class describes singly-linked nodes that are the building blocks of an environment. Nodes are simple,
+# they point to the node in front of them, hold a number representing their state, and a boolean that
+# indicates whether or not the node has a reward. Some nodes have reward values and others do not.
+# A basic node is only given a state through the constructor. The next, and reward fields are determined
 # by the environment.
 
 

@@ -2,7 +2,8 @@
 # This agent will usually obtain the reward due to surging near the final state. The probability of rolling a one
 # nine times in a row is very low. Random agents are different based on their probability to surge forward.
 
-import random  # Necessary for random number generators.
+# Importing random is necessary for random number generators.
+import random
 from Agent import Agent
 
 
@@ -18,20 +19,12 @@ class RandomAgent(Agent):
         self.probability_of_surge = probability_of_surge
 
     # See Agent.py.
-    def set_current_state(self, current_state):
-        self.current_state = current_state
-
-    # See Agent.py.
-    def set_reward(self, reward_value):
-        self.reward = reward_value
-
-    # See Agent.py.
     # If the random agent is at the initial node,
     # it has the chance to surge forward to a later state.
     # If the random agent does not surge forward, it can only move forward
     # when the RNG rolls a 1. If the RNG rolls any other number,
     # the random agent is sent back to the initial state.
-    def traverse(self, environment):
+    def traverse(self, environment, index, csv_writer):
         self.current_state = environment.starting_node
         print("Random agent entered environment. (State 0)")
         while self.reward is False:

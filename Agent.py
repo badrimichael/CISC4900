@@ -1,15 +1,17 @@
 # The Agent class details all attributes and abilities of an agent. These will start simple and become more complex
 # later on. An agent may be instantiated with a probability to surge forward. Otherwise, every agent is created the
 # same. They are created outside of the environment (current_state initial value is None) and they are created without
-# the reward (reward initial value is False). The agent is compelled to traverse an environment as long as it doesn't
-# have a reward.
+# the reward (reward initial value is False). Some agents will traverse an environment based on learning algorithms
+# or random number generators.
 
+# Abstract class.
 from abc import ABC, abstractmethod
 
 
 # Some agents have a probability to surge forward.
 # All have a current state, and a reward field. All agents are
-# also capable of traversal through an environment.
+# also capable of traversal through an environment and are capable
+# of recording their actions in a csv output file.
 class Agent(ABC):
     @property
     @abstractmethod
@@ -26,19 +28,26 @@ class Agent(ABC):
     def reward(self):
         pass
 
-    # As the agent traverses, the current node will change
-    # to reflect the agent's current position in the environment.
+    # The agent enters the environment.
     @abstractmethod
-    def set_current_state(self, current_state):
+    def traverse(self, environment, index, csv_writer):
         pass
 
     # As an agent traverses, the reward value will update based on
     # the reward of the current state.
-    @abstractmethod
     def set_reward(self, reward_value):
-        pass
+        self.reward = reward_value
 
-    # The agent enters the environment.
-    @abstractmethod
-    def traverse(self, environment):
-        pass
+    # As the agent traverses, the current node will change
+    # to reflect the agent's current position in the environment.
+    def set_current_state(self, current_state):
+        self.current_state = current_state
+
+    # Learning agents can write their activities to an output file.
+    @staticmethod
+    def write_to_csv(writer, episode, state, total_reward, time, action, index):
+        file = open('output.csv', 'a')
+        writer.writerow(
+            {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
+             'Agent': index})
+        file.close()

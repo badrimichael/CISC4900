@@ -1,5 +1,5 @@
 # The environment class creates an environment of Nodes (see Node.py). Each node is "told" the node in front
-# and behind it (unless it is the starting or ending node). Nodes are dynamically created based on the constructor
+# of it (unless it is the final node). Nodes are dynamically created based on the constructor
 # argument. These nodes are held in a list of nodes. The environment is capable of tracking the performance
 # of the agent.
 
@@ -12,7 +12,7 @@ class Environment(object):
     starting_node = None
 
     # Constructor that instantiates nodes based on num_of_states
-    # argument. The prev and next of each node is determined here.
+    # argument. The next field of each node is determined here.
     # Reward is added to the final node in the environment.
     def __init__(self, num_of_states):
         nodes = self.nodes
@@ -27,6 +27,7 @@ class Environment(object):
                 node.set_next(nodes[node.state + 1])
         self.starting_node = nodes[0]
 
+    # Prints each node in nodes list.
     def print(self):
         for node in self.nodes:
             print(node)

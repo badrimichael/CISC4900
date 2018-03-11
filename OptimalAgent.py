@@ -1,6 +1,6 @@
 # The optimal agent moves from one state to another without any obstacles.
 # It will always move to the next state in the environment nodes list.
-# Since it is guaranteed to move forward, it is guaranteed a reward.
+# Since it is guaranteed to move forward, it is guaranteed to obtain rewards.
 
 from Agent import Agent
 
@@ -13,19 +13,11 @@ class OptimalAgent(Agent):
     current_state = None
     reward = False
 
-    # See Agent.py.
-    def set_current_state(self, current_state):
-        self.current_state = current_state
-
-    # See Agent.py.
-    def set_reward(self, reward_value):
-        self.reward = reward_value
-
     # See Agent.py
     # The optimal agent is guaranteed to move
     # from one state to another and is incapable
     # of surging forward.
-    def traverse(self, environment):
+    def traverse(self, environment, index, csv_writer):
         self.current_state = environment.starting_node
         print("Optimal agent entered environment. (State 0)")
         while self.reward is False:
