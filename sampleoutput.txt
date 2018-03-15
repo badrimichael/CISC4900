@@ -1,64 +1,74 @@
+For each input, enter an integer and press the ENTER key to confirm.
+How many Q-learning agents would you like to simulate?
+2
+How many SARSA agents would you like to simulate?
+2
+How many nodes would you like the environment to have?
+4
+Running...
 Q-learning Agent:
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
 Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Episode 1: Reward = 0
 Steps taken: 25
 
 Best action from experience is 0
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
@@ -72,113 +82,87 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Episode 2: Reward = 0
 Steps taken: 25
 
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Episode 3: Reward = 0
 Steps taken: 25
 
-RNG rolled 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -190,23 +174,13 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
 Episode 4: Reward = 0
 Steps taken: 25
@@ -219,129 +193,100 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Episode 5: Reward = 0
 Steps taken: 25
 
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 6: Reward = 0
 Steps taken: 25
 
-RNG rolled 2
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -349,128 +294,194 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-RNG rolled 1
-Agent moved to node 3
-Agent obtained reward.
-Episode 7: Reward = 100
-Steps taken: 22
-
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-Best action from experience is 1
-Agent moved to node 3
-Agent obtained reward.
-Episode 8: Reward = 100
-Steps taken: 3
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 7: Reward = 0
+Steps taken: 25
 
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-Best action from experience is 1
-Agent moved to node 2
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 1
-Agent moved to node 1
-Best action from experience is 1
-Agent moved to node 2
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-Best action from experience is 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Episode 8: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to node 2
-Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 9: Reward = 100
-Steps taken: 22
+Steps taken: 5
 
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-Best action from experience is 1
-Agent moved to node 2
-Best action from experience is 1
-Agent moved to node 3
-Agent obtained reward.
-Episode 10: Reward = 100
-Steps taken: 3
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 10: Reward = 0
+Steps taken: 25
 
-Best action from experience is 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-Best action from experience is 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to node 2
 Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 11: Reward = 100
-Steps taken: 3
+Steps taken: 21
 
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
 Agent moved to node 2
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
-RNG rolled 1
+Best action from experience is 1
 Agent moved to node 2
 Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 12: Reward = 100
-Steps taken: 6
+Steps taken: 10
 
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
-Best action from experience is 1
 Agent moved to node 2
 Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 13: Reward = 100
-Steps taken: 3
+Steps taken: 7
 
-RNG rolled 2
-Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
@@ -479,55 +490,50 @@ Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 14: Reward = 100
-Steps taken: 4
+Steps taken: 3
 
 Best action from experience is 1
 Agent moved to node 1
-RNG rolled 1
 Agent moved to node 2
-RNG rolled 0
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
 Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
 Agent moved to node 2
-RNG rolled 0
-Agent moved to starting state.
 Best action from experience is 1
-Agent moved to node 1
-Best action from experience is 1
-Agent moved to node 2
-RNG rolled 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 15: Reward = 100
+Steps taken: 8
+
+Best action from experience is 1
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 16: Reward = 100
 Steps taken: 9
 
 Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
 Agent moved to node 2
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-Best action from experience is 1
-Agent moved to node 3
-Agent obtained reward.
-Episode 16: Reward = 100
-Steps taken: 6
-
-Best action from experience is 1
-Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 1
-Agent moved to node 1
-Best action from experience is 1
 Agent moved to node 2
 Best action from experience is 1
 Agent moved to node 3
@@ -535,42 +541,50 @@ Agent obtained reward.
 Episode 17: Reward = 100
 Steps taken: 6
 
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 1
 Agent moved to node 2
-RNG rolled 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 18: Reward = 100
-Steps taken: 4
+Steps taken: 15
 
 Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
 Agent moved to node 2
-RNG rolled 1
+Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 19: Reward = 100
 Steps taken: 3
 
-RNG rolled 2
-Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
-Best action from experience is 1
 Agent moved to node 2
 Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 20: Reward = 100
-Steps taken: 4
+Steps taken: 3
 
-RNG rolled 0
-Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
@@ -579,23 +593,22 @@ Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 21: Reward = 100
-Steps taken: 4
+Steps taken: 3
 
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
 Agent moved to node 1
 Best action from experience is 1
 Agent moved to node 2
-Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 22: Reward = 100
-Steps taken: 4
+Steps taken: 6
 
-Best action from experience is 1
 Agent moved to node 1
-RNG rolled 1
+Best action from experience is 1
 Agent moved to node 2
 Best action from experience is 1
 Agent moved to node 3
@@ -603,13 +616,16 @@ Agent obtained reward.
 Episode 23: Reward = 100
 Steps taken: 3
 
-RNG rolled 3
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 3
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
 Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
@@ -619,21 +635,10 @@ Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 24: Reward = 100
-Steps taken: 7
+Steps taken: 11
 
-Best action from experience is 1
 Agent moved to node 1
-Best action from experience is 1
-Agent moved to node 2
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 1
-Agent moved to node 1
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 1
 Agent moved to node 1
@@ -643,42 +648,25 @@ Best action from experience is 1
 Agent moved to node 3
 Agent obtained reward.
 Episode 25: Reward = 100
-Steps taken: 10
+Steps taken: 6
 
-Sarsa Agent:
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
+Q-learning Agent:
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
+Agent moved to node 1
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -686,225 +674,188 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 3
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 1: Reward = 0
 Steps taken: 25
 
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
 Episode 2: Reward = 0
 Steps taken: 25
 
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 3: Reward = 0
 Steps taken: 25
 
-RNG rolled 2
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
+Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 0
+Agent moved to node 1
 Agent moved to starting state.
-Best action from experience is 0
+Agent moved to starting state.
 Episode 4: Reward = 0
 Steps taken: 25
 
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -912,7 +863,7 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Agent moved to starting state.
 Episode 5: Reward = 0
 Steps taken: 25
 
@@ -922,90 +873,75 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
+Agent moved to node 2
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 6: Reward = 0
 Steps taken: 25
 
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 3
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 2
+Agent moved to node 2
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
+Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
@@ -1014,45 +950,36 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
 Episode 7: Reward = 0
 Steps taken: 25
 
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
-RNG rolled 0
+Agent moved to node 1
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
 Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1060,75 +987,56 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
 Episode 8: Reward = 0
 Steps taken: 25
 
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 9: Reward = 0
 Steps taken: 25
 
@@ -1136,53 +1044,44 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 3
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Episode 10: Reward = 0
 Steps taken: 25
 
@@ -1190,15 +1089,12 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
@@ -1208,17 +1104,14 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1226,55 +1119,24 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
 Episode 11: Reward = 0
 Steps taken: 25
 
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-RNG rolled 3
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1282,7 +1144,13 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1291,60 +1159,57 @@ Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 12: Reward = 0
 Steps taken: 25
 
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
 Episode 13: Reward = 0
 Steps taken: 25
 
@@ -1352,95 +1217,15 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Episode 14: Reward = 0
-Steps taken: 25
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 14: Reward = 100
+Steps taken: 5
 
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
@@ -1450,9 +1235,35 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Episode 15: Reward = 0
 Steps taken: 25
 
@@ -1464,25 +1275,10 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
+Agent moved to node 1
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1492,97 +1288,1013 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
+Agent moved to node 1
 Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Episode 16: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 17: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 18: Reward = 100
+Steps taken: 19
+
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 19: Reward = 100
+Steps taken: 3
+
+Best action from experience is 1
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 20: Reward = 100
+Steps taken: 6
+
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 21: Reward = 100
+Steps taken: 4
+
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 22: Reward = 100
+Steps taken: 11
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 23: Reward = 100
+Steps taken: 22
+
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Agent moved to starting state.
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 24: Reward = 100
+Steps taken: 6
+
+Best action from experience is 1
+Agent moved to node 1
+Best action from experience is 1
+Agent moved to node 2
+Best action from experience is 1
+Agent moved to node 3
+Agent obtained reward.
+Episode 25: Reward = 100
+Steps taken: 3
+
+Sarsa Agent:
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Episode 1: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 2: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 3: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 4: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 5: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 6: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 7: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 8: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 9: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 10: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Episode 11: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 12: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 13: Reward = 0
+Steps taken: 25
+
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 14: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 15: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Episode 16: Reward = 0
 Steps taken: 25
 
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Episode 17: Reward = 0
 Steps taken: 25
 
-RNG rolled 1
 Agent moved to node 1
-Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1590,152 +2302,108 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
 Episode 18: Reward = 0
 Steps taken: 25
 
-RNG rolled 0
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-RNG rolled 1
-Agent moved to node 3
 Best action from experience is 0
-Agent obtained reward.
-Episode 19: Reward = 100
-Steps taken: 9
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 19: Reward = 0
+Steps taken: 25
 
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
+Agent moved to node 2
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Episode 20: Reward = 0
 Steps taken: 25
 
-RNG rolled 2
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1746,14 +2414,34 @@ Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Episode 21: Reward = 0
 Steps taken: 25
 
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1761,33 +2449,13 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1795,9 +2463,26 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
+Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Episode 22: Reward = 0
@@ -1805,9 +2490,19 @@ Steps taken: 25
 
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1817,9 +2512,33 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
 Agent moved to starting state.
-RNG rolled 3
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 23: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1827,13 +2546,228 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 3
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 24: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 25: Reward = 0
+Steps taken: 25
+
+Sarsa Agent:
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 1: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 2: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 3: Reward = 0
+Steps taken: 25
+
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1849,7 +2783,824 @@ Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Best action from experience is 0
+Episode 4: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 5: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 6: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Episode 7: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 8: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Episode 9: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 10: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Episode 11: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 12: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Episode 13: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 14: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Episode 15: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 16: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 17: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Episode 18: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 19: Reward = 0
+Steps taken: 25
+
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Episode 20: Reward = 0
+Steps taken: 25
+
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 21: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Episode 22: Reward = 0
+Steps taken: 25
+
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
@@ -1859,94 +3610,89 @@ Steps taken: 25
 
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 1
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 0
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Best action from experience is 0
 Episode 24: Reward = 0
 Steps taken: 25
 
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
+Best action from experience is 0
+Agent moved to starting state.
 Agent moved to node 1
 Best action from experience is 0
 Agent moved to starting state.
-RNG rolled 2
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 3
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
 Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
 Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-Best action from experience is 0
-Agent moved to starting state.
-RNG rolled 0
-Agent moved to starting state.
-RNG rolled 1
-Agent moved to node 1
-RNG rolled 1
-Agent moved to node 2
-Best action from experience is 1
-Agent moved to node 3
-Best action from experience is 0
-Agent obtained reward.
-Episode 25: Reward = 100
-Steps taken: 17
+Episode 25: Reward = 0
+Steps taken: 25
 
+Done. Check output.csv for record of simulation.
