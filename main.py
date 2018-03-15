@@ -24,27 +24,25 @@ def create_csv():
     return csv_writer
 
 
-# Create an environment consisting of n nodes where n is the argument of the constructor.
-environment = Environment(4)
-
 # Stores agents in a list. One agent will traverse at a time.
 agents = []
-
-# Creates a random agent with probability of surging as the argument.
-# Creates an optimal agent.
-# agent = RandomAgent(0.01)
-# agent2 = OptimalAgent()
 
 # Initialize DictWriter object for csv file.
 writer = create_csv()
 
-# Creates an agent that learns with Q-learning and an agent that learns with SARSA.
-q_agent = QAgent()
-sarsa_agent = SarsaAgent()
+# Prompt user for number of agents of each type and environment size.
+q_count = int(input("How many Q-learning agents would you like to simulate?\n"))
+sarsa_count = int(input("How many SARSA agents would you like to simulate?\n"))
+environment_size = int(input("How many nodes would you like the environment to have?\n"))
 
-# Add both to the agents list.
-agents.append(q_agent)
-agents.append(sarsa_agent)
+# Populate agents list.
+for _ in range(q_count):
+    agents.append(QAgent())
+for _ in range(sarsa_count):
+    agents.append(SarsaAgent())
+
+# Create an environment consisting of environment_size nodes where environment_size is the argument of the constructor.
+environment = Environment(environment_size)
 
 # For each agent in the list of agents, begin traversal.
 for agent in agents:
