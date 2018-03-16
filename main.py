@@ -32,11 +32,17 @@ writer = create_csv()
 
 # Prompt user for number of agents of each type and environment size.
 print("For each input, enter an integer and press the ENTER key to confirm.")
+optimal_count = int(input("How many Optimal agents would you like to simulate?\n"))
+random_count = int(input("How many Random agents would you like to simulate?\n"))
 q_count = int(input("How many Q-learning agents would you like to simulate?\n"))
 sarsa_count = int(input("How many SARSA agents would you like to simulate?\n"))
 environment_size = int(input("How many nodes would you like the environment to have?\n"))
 
 # Populate agents list.
+for _ in range(optimal_count):
+    agents.append(OptimalAgent())
+for _ in range(random_count):
+    agents.append(RandomAgent())
 for _ in range(q_count):
     agents.append(QAgent())
 for _ in range(sarsa_count):
@@ -46,7 +52,7 @@ for _ in range(sarsa_count):
 environment = Environment(environment_size)
 
 # For each agent in the list of agents, begin traversal.
-print("Running...")
+print("\nRunning...")
 for agent in agents:
     agent.traverse(environment, agents.index(agent) + 1, writer)
 print("Done. Check output.csv for record of simulation.")

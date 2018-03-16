@@ -25,7 +25,7 @@ class QAgent(Agent):
 
         # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
         # of episodes.
-        self.number_of_steps = 25
+        self.number_of_steps = 50
 
         # The alpha variable in the Q-learning equation decreases as the episodes increase. The minimum value is
         # when alpha stops decreasing. Alpha is the learning rate.
@@ -58,11 +58,11 @@ class QAgent(Agent):
     def choose_action(self, state):
         if random.uniform(0, 1) < self.epsilon:
             action = random.choice(self.actions)
-            # print("RNG rolled " + str(action))
+            # print("RNG rolled " + str(action) + ".", end="", flush=True)
             return action
         else:
             action = np.argmax(self.q(state))
-            print("Best action from experience is " + str(action))
+            # print("Best action from experience is " + str(action) + ".", end="", flush=True)
             return action
 
     # See Agent.py
@@ -109,8 +109,8 @@ class QAgent(Agent):
                 total_reward += reward
                 self.q(state)[action] = self.q(state, action) + alpha * (
                         reward + self.gamma * np.max(self.q(next_state)) - self.q(state, action))
-                self.write_to_csv(csv_writer, episode + 1, state, total_reward, time, action, index)
                 state = next_state
+                self.write_to_csv(csv_writer, episode + 1, state, total_reward, time, action, index)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

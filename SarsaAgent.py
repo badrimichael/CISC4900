@@ -25,7 +25,7 @@ class SarsaAgent(Agent):
 
         # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
         # of episodes.
-        self.number_of_steps = 25
+        self.number_of_steps = 50
 
         # The alpha variable in the Q-learning equation decreases as the episodes increase. The minimum value is
         # when alpha stops decreasing. Alpha is the learning rate.
@@ -58,11 +58,11 @@ class SarsaAgent(Agent):
     def choose_action(self, state):
         if random.uniform(0, 1) < self.epsilon:
             action = random.choice(self.actions)
-           # print("RNG rolled " + str(action))
+            # print("RNG rolled " + str(action) + ".", end="", flush=True)
             return action
         else:
             action = np.argmax(self.q(state))
-            print("Best action from experience is " + str(action))
+            #  print("Best action from experience is " + str(action) + ".", end="", flush=True)
             return action
 
     # See Agent.py
@@ -71,7 +71,7 @@ class SarsaAgent(Agent):
         # Initialize possible actions based on environment size.
         for node in environment.nodes:
             self.actions.append(node.state)
-        time2 = 0
+        time = 0
 
         # Based on current state and action, decide where to go next, if the agent has reached a terminal state,
         # and what reward is obtained.
@@ -104,17 +104,17 @@ class SarsaAgent(Agent):
             # For each step, it chooses a new action, determines the next state, reward, and if the next state is
             # terminal or not. Then the Sarsa function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
-                time2 = time2 + 1
+                time = time + 1
                 next_state, reward, terminal_state = act(state, action)
                 next_action = self.choose_action(next_state)
                 total_reward += reward
                 self.q(state)[action] = self.q(state, action) + alpha * (
                         reward + self.gamma * self.q(next_state, next_action) - self.q(state, action))
-                self.write_to_csv(csv_writer, episode + 1, state, total_reward, time2, action, index)
+                state = next_state
+                action = next_action
+                self.write_to_csv(csv_writer, episode + 1, state, total_reward, time, action, index)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break
-                state = next_state
-                action = next_action
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
