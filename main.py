@@ -12,6 +12,7 @@ from RandomAgent import RandomAgent
 from OptimalAgent import OptimalAgent
 from QAgent import QAgent
 from SarsaAgent import SarsaAgent
+from ExpectedSarsaAgent import ExpectedSarsaAgent
 import csv
 
 
@@ -36,6 +37,7 @@ optimal_count = int(input("How many Optimal agents would you like to simulate?\n
 random_count = int(input("How many Random agents would you like to simulate?\n"))
 q_count = int(input("How many Q-learning agents would you like to simulate?\n"))
 sarsa_count = int(input("How many SARSA agents would you like to simulate?\n"))
+expected_sarsa_count = int(input("How many Expected SARSA agents would you like to simulate?\n"))
 environment_size = int(input("How many nodes would you like the environment to have?\n"))
 
 # Populate agents list.
@@ -47,6 +49,8 @@ for _ in range(q_count):
     agents.append(QAgent())
 for _ in range(sarsa_count):
     agents.append(SarsaAgent())
+for _ in range(expected_sarsa_count):
+    agents.append(ExpectedSarsaAgent())
 
 # Create an environment consisting of environment_size nodes where environment_size is the argument of the constructor.
 environment = Environment(environment_size)

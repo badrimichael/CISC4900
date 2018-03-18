@@ -7,6 +7,8 @@ How many Q-learning agents would you like to simulate?
 1
 How many SARSA agents would you like to simulate?
 1
+How many Expected SARSA agents would you like to simulate?
+1
 How many nodes would you like the environment to have?
 4
 
@@ -186,18 +188,40 @@ Agent obtained reward.
 Episode 25: Reward = 100
 Steps taken: 3
 
+Agent surged to node 0
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent surged to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 1: Reward = 100
-Steps taken: 3
+Steps taken: 15
 
-Agent surged to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 0
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 2: Reward = 100
-Steps taken: 2
+Steps taken: 12
 
 Agent moved to starting state.
 Agent moved to starting state.
@@ -206,313 +230,316 @@ Agent obtained reward.
 Episode 3: Reward = 100
 Steps taken: 3
 
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 0
+Agent moved to starting state.
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 4: Reward = 100
-Steps taken: 2
+Steps taken: 11
 
 Agent moved to starting state.
 Agent surged to node 0
-Agent surged to node 1
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent surged to node 2
-Agent moved to node 3
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent surged to node 3
 Agent obtained reward.
 Episode 5: Reward = 100
-Steps taken: 11
+Steps taken: 16
 
+Agent surged to node 2
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
 Agent surged to node 0
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 6: Reward = 100
-Steps taken: 4
+Steps taken: 9
 
-Agent surged to node 2
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to node 3
+Agent surged to node 3
 Agent obtained reward.
 Episode 7: Reward = 100
-Steps taken: 36
+Steps taken: 2
 
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 0
+Agent moved to starting state.
+Agent surged to node 0
+Agent surged to node 0
+Agent moved to starting state.
+Agent moved to starting state.
 Agent surged to node 2
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 8: Reward = 0
+Steps taken: 50
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 9: Reward = 100
+Steps taken: 14
+
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
-Episode 8: Reward = 100
-Steps taken: 20
+Episode 10: Reward = 100
+Steps taken: 9
 
 Agent surged to node 0
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 3
+Agent surged to node 2
+Agent moved to node 3
 Agent obtained reward.
-Episode 9: Reward = 100
-Steps taken: 6
+Episode 11: Reward = 100
+Steps taken: 9
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 12: Reward = 100
+Steps taken: 35
 
 Agent surged to node 2
 Agent moved to node 3
 Agent obtained reward.
-Episode 10: Reward = 100
+Episode 13: Reward = 100
 Steps taken: 2
 
-Agent surged to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
-Episode 11: Reward = 100
-Steps taken: 5
+Episode 14: Reward = 100
+Steps taken: 1
 
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 3
-Agent obtained reward.
-Episode 12: Reward = 100
-Steps taken: 14
-
-Agent surged to node 1
-Agent moved to starting state.
-Agent surged to node 3
-Agent obtained reward.
-Episode 13: Reward = 100
-Steps taken: 3
-
-Agent surged to node 1
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 0
-Agent surged to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 14: Reward = 0
-Steps taken: 50
-
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 15: Reward = 100
-Steps taken: 8
-
-Agent surged to node 3
-Agent obtained reward.
-Episode 16: Reward = 100
 Steps taken: 1
 
 Agent moved to node 1
-Agent moved to node 2
+Agent moved to starting state.
+Agent surged to node 0
+Agent surged to node 3
+Agent obtained reward.
+Episode 16: Reward = 100
+Steps taken: 4
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent surged to node 1
 Agent moved to starting state.
+Agent surged to node 1
+Agent moved to starting state.
+Agent surged to node 0
+Agent surged to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 17: Reward = 100
-Steps taken: 7
+Steps taken: 27
 
-Agent moved to node 1
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
 Agent moved to node 2
-Agent moved to starting state.
-Agent surged to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 18: Reward = 100
-Steps taken: 10
+Steps taken: 13
 
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 3
+Agent obtained reward.
+Episode 19: Reward = 100
+Steps taken: 16
+
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent surged to node 0
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent surged to node 0
 Agent surged to node 1
 Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent surged to node 2
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent surged to node 0
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 19: Reward = 0
-Steps taken: 50
-
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 20: Reward = 100
-Steps taken: 13
+Steps taken: 18
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 3
+Agent obtained reward.
+Episode 21: Reward = 100
+Steps taken: 3
 
 Agent moved to starting state.
 Agent moved to starting state.
@@ -521,89 +548,68 @@ Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 2
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
-Episode 21: Reward = 0
-Steps taken: 50
-
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
-Agent surged to node 2
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent surged to node 0
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent surged to node 0
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 22: Reward = 100
-Steps taken: 24
+Steps taken: 20
 
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent surged to node 0
+Agent moved to starting state.
+Agent surged to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 0
+Agent moved to node 1
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent surged to node 2
 Agent moved to starting state.
-Agent surged to node 3
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent surged to node 0
+Agent surged to node 2
+Agent moved to node 3
 Agent obtained reward.
 Episode 23: Reward = 100
-Steps taken: 6
+Steps taken: 42
 
 Agent moved to starting state.
 Agent surged to node 3
@@ -611,26 +617,13 @@ Agent obtained reward.
 Episode 24: Reward = 100
 Steps taken: 2
 
-Agent surged to node 0
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent surged to node 0
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent surged to node 3
 Agent obtained reward.
 Episode 25: Reward = 100
-Steps taken: 17
+Steps taken: 4
 
 Q-learning Agent:
 Agent moved to starting state.
@@ -650,24 +643,15 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 1: Reward = 100
+Steps taken: 22
+
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
@@ -680,9 +664,285 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 2: Reward = 100
+Steps taken: 34
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 3: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 4: Reward = 100
+Steps taken: 5
+
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 5: Reward = 100
+Steps taken: 5
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 6: Reward = 100
+Steps taken: 6
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 7: Reward = 100
+Steps taken: 6
+
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 8: Reward = 100
+Steps taken: 5
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 9: Reward = 100
+Steps taken: 6
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 10: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 11: Reward = 100
+Steps taken: 3
+
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 12: Reward = 100
+Steps taken: 6
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 13: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 14: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 15: Reward = 100
+Steps taken: 7
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 16: Reward = 100
+Steps taken: 10
+
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 17: Reward = 100
+Steps taken: 7
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 18: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 19: Reward = 100
+Steps taken: 9
+
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 20: Reward = 100
+Steps taken: 4
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 21: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 22: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 23: Reward = 100
+Steps taken: 3
+
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 24: Reward = 100
+Steps taken: 3
+
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 25: Reward = 100
+Steps taken: 4
+
+Sarsa Agent:
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Episode 1: Reward = 0
 Steps taken: 50
 
@@ -692,40 +952,40 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -741,6 +1001,27 @@ Steps taken: 50
 
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -768,27 +1049,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Episode 3: Reward = 0
 Steps taken: 50
 
@@ -801,23 +1061,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -828,7 +1071,24 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -849,13 +1109,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
@@ -878,15 +1131,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -895,6 +1139,22 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Episode 5: Reward = 0
 Steps taken: 50
 
@@ -911,6 +1171,15 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -935,15 +1204,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -955,18 +1215,9 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -976,7 +1227,16 @@ Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1004,32 +1264,7 @@ Agent moved to starting state.
 Episode 7: Reward = 0
 Steps taken: 50
 
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1047,10 +1282,35 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1061,6 +1321,20 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1070,7 +1344,43 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 9: Reward = 0
+Steps taken: 50
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1103,59 +1413,9 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 9: Reward = 0
-Steps taken: 50
-
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1166,16 +1426,34 @@ Steps taken: 50
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1194,24 +1472,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Episode 11: Reward = 0
 Steps taken: 50
@@ -1219,17 +1479,6 @@ Steps taken: 50
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1250,6 +1499,17 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1270,16 +1530,35 @@ Episode 12: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1295,26 +1574,7 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1323,9 +1583,7 @@ Episode 13: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1334,78 +1592,15 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 14: Reward = 0
-Steps taken: 50
-
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 3
+Agent obtained reward.
+Episode 14: Reward = 100
+Steps taken: 15
+
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1420,7 +1615,38 @@ Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1431,28 +1657,7 @@ Steps taken: 50
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1466,8 +1671,29 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1485,28 +1711,11 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
@@ -1521,6 +1730,20 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1531,17 +1754,30 @@ Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Episode 17: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1564,32 +1800,35 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Episode 18: Reward = 0
 Steps taken: 50
 
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1621,42 +1860,13 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Episode 19: Reward = 0
 Steps taken: 50
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1674,6 +1884,7 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1682,35 +1893,33 @@ Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Episode 20: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
@@ -1722,14 +1931,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to node 1
@@ -1737,50 +1938,42 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Episode 21: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1793,6 +1986,39 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1801,49 +2027,12 @@ Steps taken: 50
 
 Agent moved to node 1
 Agent moved to node 2
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 23: Reward = 100
-Steps taken: 41
+Steps taken: 3
 
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1852,44 +2041,43 @@ Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 24: Reward = 100
-Steps taken: 6
+Steps taken: 7
 
+Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 25: Reward = 100
-Steps taken: 31
+Steps taken: 8
 
-Sarsa Agent:
+Expected Sarsa Agent:
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1913,28 +2101,6 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1944,33 +2110,8 @@ Episode 1: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1985,6 +2126,24 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
@@ -1993,6 +2152,13 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Episode 2: Reward = 0
 Steps taken: 50
 
@@ -2002,6 +2168,19 @@ Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2030,46 +2209,13 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Episode 3: Reward = 0
 Steps taken: 50
 
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2086,7 +2232,27 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2102,6 +2268,21 @@ Agent moved to starting state.
 Episode 4: Reward = 0
 Steps taken: 50
 
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2111,6 +2292,100 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 5: Reward = 0
+Steps taken: 50
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Episode 6: Reward = 0
+Steps taken: 50
+
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2128,32 +2403,12 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 5: Reward = 0
-Steps taken: 50
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 7: Reward = 100
+Steps taken: 32
 
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2165,32 +2420,10 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2205,105 +2438,21 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Episode 6: Reward = 0
-Steps taken: 50
-
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 7: Reward = 0
-Steps taken: 50
-
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2317,6 +2466,24 @@ Steps taken: 50
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2329,32 +2496,14 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2369,24 +2518,11 @@ Steps taken: 50
 
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2414,29 +2550,28 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to node 1
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Episode 10: Reward = 0
 Steps taken: 50
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2449,179 +2584,54 @@ Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
+Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 11: Reward = 0
-Steps taken: 50
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 11: Reward = 100
+Steps taken: 19
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Episode 12: Reward = 0
-Steps taken: 50
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 12: Reward = 100
+Steps taken: 3
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Episode 13: Reward = 0
-Steps taken: 50
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 13: Reward = 100
+Steps taken: 3
 
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 14: Reward = 100
+Steps taken: 9
+
+Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 15: Reward = 100
+Steps taken: 9
+
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
@@ -2629,262 +2639,44 @@ Agent moved to node 1
 Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
-Episode 14: Reward = 0
-Steps taken: 50
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 16: Reward = 100
+Steps taken: 12
 
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 15: Reward = 0
-Steps taken: 50
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 17: Reward = 100
+Steps taken: 4
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 16: Reward = 0
-Steps taken: 50
+Agent moved to node 3
+Agent obtained reward.
+Episode 18: Reward = 100
+Steps taken: 7
 
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Episode 17: Reward = 0
-Steps taken: 50
-
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Episode 18: Reward = 0
-Steps taken: 50
-
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
@@ -2893,73 +2685,17 @@ Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 19: Reward = 100
-Steps taken: 47
+Steps taken: 16
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 20: Reward = 0
-Steps taken: 50
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 20: Reward = 100
+Steps taken: 3
 
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to starting state.
@@ -2967,91 +2703,56 @@ Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
 Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Episode 21: Reward = 0
-Steps taken: 50
+Agent moved to node 2
+Agent moved to node 3
+Agent obtained reward.
+Episode 21: Reward = 100
+Steps taken: 15
 
+Agent moved to node 1
+Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 22: Reward = 100
-Steps taken: 8
+Steps taken: 10
 
 Agent moved to starting state.
 Agent moved to starting state.
 Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
-Agent moved to starting state.
+Agent moved to node 1
+Agent moved to node 2
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 23: Reward = 100
-Steps taken: 11
+Steps taken: 9
 
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to starting state.
-Agent moved to node 1
-Agent moved to node 2
-Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 24: Reward = 100
-Steps taken: 13
+Steps taken: 3
 
-Agent moved to node 1
 Agent moved to starting state.
 Agent moved to node 1
 Agent moved to node 2
 Agent moved to node 3
 Agent obtained reward.
 Episode 25: Reward = 100
-Steps taken: 5
+Steps taken: 4
 
 Done. Check output.csv for record of simulation.
