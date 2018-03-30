@@ -5,25 +5,7 @@
 from Agent import Agent
 
 
-# See Agent.py.
-# Incapable of surging therefore zero probability
-# to surge forward.
 class OptimalAgent(Agent):
-    probability_of_surge = 0
-    current_state = None
-    reward = False
-
-    # Constructor to initialize the variables needed for the Optimal Agent.
-    def __init__(self):
-        # Actions list holds all of the possible actions. For an environment of m states, the actions are 0 - m-1.
-        self.actions = []
-
-        # Number of episodes to attempt. This can be any number.
-        self.number_of_episodes = 25
-
-        # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
-        # of episodes.
-        self.number_of_steps = 50
 
     # See Agent.py
     # The optimal agent is guaranteed to move

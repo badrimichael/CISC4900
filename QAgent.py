@@ -5,44 +5,10 @@
 # Numpy is required as the q_table is a matrix. Random is also required for the RNG.
 import numpy as np
 import random
-from Agent import Agent
+from LearningAgent import LearningAgent
 
 
-# Just like all other Agents, there is an initial reward of 0, a current_state field,
-# and a probability to surge.
-class QAgent(Agent):
-    current_state = None
-    probability_of_surge = 0
-    reward = 0
-
-    # Constructor to initialize the variables needed for the Q-learning algorithm.
-    def __init__(self):
-        # Actions list holds all of the possible actions. For an environment of m states, the actions are 0 - m-1.
-        self.actions = []
-
-        # Number of episodes to attempt. This can be any number.
-        self.number_of_episodes = 25
-
-        # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
-        # of episodes.
-        self.number_of_steps = 50
-
-        # The alpha variable in the Q-learning equation decreases as the episodes increase. The minimum value is
-        # when alpha stops decreasing. Alpha is the learning rate.
-        self.minimum_alpha = 0.02
-
-        # Gamma is the discount factor.
-        self.gamma = 1
-
-        # A list of alphas starts from 1.0 and decays based on the number of episodes until minimum_alpha is reached.
-        self.decaying_alphas = np.linspace(1.0, self.minimum_alpha, self.number_of_episodes)
-
-        # Epsilon determines whether or not the action will be random or chosen from experience.
-        # This can be any value less than 1. If it is 1, it will always choose a random action.
-        self.epsilon = 0.4
-
-        # Q_table is initialized as an empty dictionary.
-        self.q_table = {}
+class QAgent(LearningAgent):
 
     # If the current state hasn't been experienced yet, add it and create a 0 column for it.
     # If the current state has been experienced, return the state and action value.

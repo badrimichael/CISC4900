@@ -13,20 +13,25 @@ from abc import ABC, abstractmethod
 # also capable of traversal through an environment and are capable
 # of recording their actions in a csv output file.
 class Agent(ABC):
-    @property
-    @abstractmethod
-    def probability_of_surge(self):
-        pass
 
-    @property
-    @abstractmethod
-    def current_state(self):
-        pass
+    # Actions list holds all of the possible actions. For an environment of m states, the actions are 0 - m-1.
+    actions = []
 
-    @property
-    @abstractmethod
-    def reward(self):
-        pass
+    # Number of episodes to attempt. This can be any number.
+    number_of_episodes = 25
+
+    # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
+    # of episodes.
+    number_of_steps = 50
+
+    # The state where the Agent is currently located.
+    current_state = None
+
+    # The probability of the Agent surging to a higher state from the starting state.
+    probability_of_surge = 0.1
+
+    # Whether or not the Agent has a reward.
+    reward = False
 
     # The agent enters the environment.
     @abstractmethod
