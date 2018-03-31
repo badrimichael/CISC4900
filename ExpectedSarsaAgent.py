@@ -47,8 +47,15 @@ class ExpectedSarsaAgent(LearningAgent):
         # Based on current state and action, decide where to go next, if the agent has reached a terminal state,
         # and what reward is obtained.
         def act(state, action):
+            random_surge = random.uniform(0, 1)
+            if state == environment.starting_node and random_surge < self.probability_of_surge:
+                random_advance = random.randint(1, len(environment.nodes) - 1)
+                state = environment.nodes[random_advance]
+                terminal_state = False
+                reward = 0
+                print("Agent surged to node " + str(state.state))
             # If action is 1, the agent can progress to the next state.
-            if action == 1:
+            elif action == 1:
                 state = state.next
                 print("Agent moved to node " + str(state.state))
                 terminal_state = False
@@ -59,7 +66,7 @@ class ExpectedSarsaAgent(LearningAgent):
                 state = environment.starting_node
                 print("Agent moved to starting state.")
                 terminal_state = False
-            # If current state has a reward, give reward.
+            # If current state is a reward, give reward.
             if state.reward is True:
                 reward = 100
                 terminal_state = True
@@ -67,25 +74,25 @@ class ExpectedSarsaAgent(LearningAgent):
 
         # For each episode, the initial state is the starting state in the environment,
         # the reward is zero'd, the alpha chosen corresponds to the number of the episode.
+        total_reward = 0
         for episode in range(self.number_of_episodes):
-            state = environment.starting_node
-            total_reward = 0
+            self.current_state = environment.starting_node
             alpha = self.decaying_alphas[episode]
             # For each step, it chooses a new action, determines the next state, reward, and if the next state is
             # terminal or not. Then the Sarsa function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
-                action = self.choose_action(state)
-                next_state, reward, terminal_state = act(state, action)
+                action = self.choose_action(self.current_state)
+                next_state, reward, terminal_state = act(self.current_state, action)
                 total_reward += reward
                 best_action = np.argmax(self.q(next_state))
                 expected_return = (
                         (1 - self.epsilon) * self.q(next_state, best_action) + (self.epsilon / len(self.actions))
                         * sum(self.q(next_state, act) for act in range(len(self.actions))))
-                self.q(state)[action] = self.q(state, action) + alpha * (
-                        reward + self.gamma * expected_return - self.q(state, action))
-                state = next_state
-                self.write_to_csv(csv_writer, episode + 1, state, total_reward, time, action, index)
+                self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
+                        reward + self.gamma * expected_return - self.q(self.current_state, action))
+                self.current_state = next_state
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

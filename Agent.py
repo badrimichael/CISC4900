@@ -6,6 +6,7 @@
 
 # Abstract class.
 from abc import ABC, abstractmethod
+import random
 
 
 # Some agents have a probability to surge forward.
@@ -13,7 +14,6 @@ from abc import ABC, abstractmethod
 # also capable of traversal through an environment and are capable
 # of recording their actions in a csv output file.
 class Agent(ABC):
-
     # Actions list holds all of the possible actions. For an environment of m states, the actions are 0 - m-1.
     actions = []
 
@@ -22,13 +22,13 @@ class Agent(ABC):
 
     # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
     # of episodes.
-    number_of_steps = 50
+    number_of_steps = 75
 
     # The state where the Agent is currently located.
     current_state = None
 
     # The probability of the Agent surging to a higher state from the starting state.
-    probability_of_surge = 0.1
+    probability_of_surge = 0.05
 
     # Whether or not the Agent has a reward.
     reward = False
@@ -56,3 +56,9 @@ class Agent(ABC):
             {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
              'Agent': index})
         file.close()
+
+    @staticmethod
+    def surge(environment):
+        random_advance = random.randint(1, len(environment.nodes) - 1)
+        current_state = environment.nodes[random_advance]
+        print("Agent surged to node " + str(current_state.state))

@@ -13,6 +13,7 @@ class OptimalAgent(Agent):
     # of surging forward.
     # WILL ALWAYS GET TO END UNLESS MORE NODES THAN NUMBER OF STEPS!
     def traverse(self, environment, index, csv_writer):
+        print("Optimal Agent:")
         time = 0
         for episode in range(self.number_of_episodes):
             self.current_state = environment.starting_node

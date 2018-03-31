@@ -42,8 +42,15 @@ class SarsaAgent(LearningAgent):
         # Based on current state and action, decide where to go next, if the agent has reached a terminal state,
         # and what reward is obtained.
         def act(state, action):
+            random_surge = random.uniform(0, 1)
+            if state == environment.starting_node and random_surge < self.probability_of_surge:
+                random_advance = random.randint(1, len(environment.nodes) - 1)
+                state = environment.nodes[random_advance]
+                terminal_state = False
+                reward = 0
+                print("Agent surged to node " + str(state.state))
             # If action is 1, the agent can progress to the next state.
-            if action == 1:
+            elif action == 1:
                 state = state.next
                 print("Agent moved to node " + str(state.state))
                 terminal_state = False
@@ -54,31 +61,31 @@ class SarsaAgent(LearningAgent):
                 state = environment.starting_node
                 print("Agent moved to starting state.")
                 terminal_state = False
-            # If current state has a reward, give reward.
+            # If current state is a reward, give reward.
             if state.reward is True:
                 reward = 100
                 terminal_state = True
             return state, reward, terminal_state
 
         # For each episode, the initial state is the starting state in the environment,
-        # the reward is zero'd, the alpha chosen corresponds to the number of the episode.
+        # the reward is zero'd, the alpha chosen corresponds to the number of the episode.\
+        total_reward = 0
         for episode in range(self.number_of_episodes):
-            state = environment.starting_node
-            total_reward = 0
+            self.current_state = environment.starting_node
             alpha = self.decaying_alphas[episode]
-            action = self.choose_action(state)
+            action = self.choose_action(self.current_state)
             # For each step, it chooses a new action, determines the next state, reward, and if the next state is
             # terminal or not. Then the Sarsa function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
-                next_state, reward, terminal_state = act(state, action)
+                next_state, reward, terminal_state = act(self.current_state, action)
                 next_action = self.choose_action(next_state)
                 total_reward += reward
-                self.q(state)[action] = self.q(state, action) + alpha * (
-                        reward + self.gamma * self.q(next_state, next_action) - self.q(state, action))
-                state = next_state
+                self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
+                        reward + self.gamma * self.q(next_state, next_action) - self.q(self.current_state, action))
+                self.current_state = next_state
                 action = next_action
-                self.write_to_csv(csv_writer, episode + 1, state, total_reward, time, action, index)
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

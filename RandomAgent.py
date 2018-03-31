@@ -17,6 +17,7 @@ class RandomAgent(Agent):
     # when the RNG rolls a 1. If the RNG rolls any other number,
     # the random agent is sent back to the initial state.
     def traverse(self, environment, index, csv_writer):
+        print("Random Agent:")
         time = 0
         for episode in range(self.number_of_episodes):
             self.current_state = environment.starting_node
@@ -26,9 +27,7 @@ class RandomAgent(Agent):
                 time = time + 1
                 random_surge = random.uniform(0, 1)
                 if self.current_state == environment.starting_node and random_surge < self.probability_of_surge:
-                    random_advance = random.randint(0, len(environment.nodes) - 1)
-                    self.current_state = environment.nodes[random_advance]
-                    print("Agent surged to node " + str(self.current_state.state))
+                    self.surge(environment)
                 else:
                     random_advance = random.randint(0, len(environment.nodes) - 1)
                     if random_advance == 1:

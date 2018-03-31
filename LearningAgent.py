@@ -17,14 +17,14 @@ class LearningAgent(Agent, ABC):
     minimum_alpha = 0.02
 
     # The discount factor.
-    gamma = 0.8
+    gamma = 0.9
 
     # A list of alphas starts from 1.0 and decays based on the number of episodes until minimum_alpha is reached.
     decaying_alphas = np.linspace(1.0, minimum_alpha, Agent.number_of_episodes)
 
     # Epsilon determines whether or not the action will be random or chosen from experience.
     # This can be any value less than 1. If it is 1, it will always choose a random action.
-    epsilon = 0.2
+    epsilon = 0.1
 
     # Q_table is initialized as an empty dictionary.
     q_table = {}
