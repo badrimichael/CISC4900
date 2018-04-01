@@ -18,11 +18,11 @@ class Agent(ABC):
     actions = []
 
     # Number of episodes to attempt. This can be any number.
-    number_of_episodes = 25
+    number_of_episodes = 500
 
     # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
     # of episodes.
-    number_of_steps = 75
+    number_of_steps = 150
 
     # The state where the Agent is currently located.
     current_state = None
