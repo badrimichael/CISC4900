@@ -33,6 +33,11 @@ class Agent(ABC):
     # Whether or not the Agent has a reward.
     reward = False
 
+    @property
+    @abstractmethod
+    def agent_type(self):
+        pass
+
     # The agent enters the environment.
     @abstractmethod
     def traverse(self, environment, index, csv_writer):
@@ -50,11 +55,11 @@ class Agent(ABC):
 
     # Learning agents can write their activities to an output file.
     @staticmethod
-    def write_to_csv(writer, episode, state, total_reward, time, action, index):
+    def write_to_csv(writer, episode, state, total_reward, time, action, index, agent_type):
         file = open('output.csv', 'a')
         writer.writerow(
             {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
-             'Agent': index})
+             'Agent': index, 'Agent Type': agent_type})
         file.close()
 
     @staticmethod

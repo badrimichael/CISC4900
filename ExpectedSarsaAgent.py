@@ -9,6 +9,7 @@ from LearningAgent import LearningAgent
 
 
 class ExpectedSarsaAgent(LearningAgent):
+    agent_type = "Expected SARSA"
 
     # TODO: Figure out why ExpectedSarsaAgent requires this to work.
     def __init__(self):
@@ -92,7 +93,8 @@ class ExpectedSarsaAgent(LearningAgent):
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
                         reward + self.gamma * expected_return - self.q(self.current_state, action))
                 self.current_state = next_state
-                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index)
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
+                                  self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

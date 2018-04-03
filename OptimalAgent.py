@@ -6,6 +6,7 @@ from Agent import Agent
 
 
 class OptimalAgent(Agent):
+    agent_type = "Optimal"
 
     # See Agent.py
     # The optimal agent is guaranteed to move
@@ -26,7 +27,7 @@ class OptimalAgent(Agent):
                 if self.current_state.reward is True:
                     reward = 100
                     terminal_state = True
-                self.write_to_csv(csv_writer, episode + 1, self.current_state, reward, time, 1, index)
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, reward, time, 1, index, self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

@@ -19,7 +19,7 @@ import csv
 # Creates csv file and initializes it with header information.
 def create_csv():
     file = open('output.csv', 'w')
-    header_names = ['Agent', 'Episode', 'Time', 'State', 'Action', 'Reward']
+    header_names = ['Agent', 'Agent Type', 'Episode', 'Time', 'State', 'Action', 'Reward']
     csv_writer = csv.DictWriter(file, fieldnames=header_names, lineterminator='\n')
     csv_writer.writeheader()
     return csv_writer

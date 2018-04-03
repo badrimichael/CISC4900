@@ -9,6 +9,7 @@ from LearningAgent import LearningAgent
 
 
 class SarsaAgent(LearningAgent):
+    agent_type = "SARSA"
 
     # If the current state hasn't been experienced yet, add it and create a 0 column for it.
     # If the current state has been experienced, return the state and action value.
@@ -85,7 +86,8 @@ class SarsaAgent(LearningAgent):
                         reward + self.gamma * self.q(next_state, next_action) - self.q(self.current_state, action))
                 self.current_state = next_state
                 action = next_action
-                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index)
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
+                                  self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

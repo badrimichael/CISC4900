@@ -9,6 +9,7 @@ from Agent import Agent
 
 # See Agent.py.
 class RandomAgent(Agent):
+    agent_type = "Random"
 
     # See Agent.py.
     # If the random agent is at the initial node,
@@ -39,7 +40,8 @@ class RandomAgent(Agent):
                 if self.current_state.reward is True:
                     reward = 100
                     terminal_state = True
-                self.write_to_csv(csv_writer, episode + 1, self.current_state, reward, time, random_advance, index)
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, reward, time, random_advance, index,
+                                  self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break
