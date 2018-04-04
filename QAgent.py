@@ -11,6 +11,10 @@ from LearningAgent import LearningAgent
 class QAgent(LearningAgent):
     agent_type = "Q-learning"
 
+    def __init__(self):
+        self.actions = []
+        self.q_table = {}
+
     # If the current state hasn't been experienced yet, add it and create a 0 column for it.
     # If the current state has been experienced, return the state and action value.
     def q(self, state, action=None):

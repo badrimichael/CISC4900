@@ -11,7 +11,6 @@ from LearningAgent import LearningAgent
 class ExpectedSarsaAgent(LearningAgent):
     agent_type = "Expected SARSA"
 
-    # TODO: Figure out why ExpectedSarsaAgent requires this to work.
     def __init__(self):
         self.actions = []
         self.q_table = {}
