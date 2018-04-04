@@ -13,6 +13,7 @@ from OptimalAgent import OptimalAgent
 from QAgent import QAgent
 from SarsaAgent import SarsaAgent
 from ExpectedSarsaAgent import ExpectedSarsaAgent
+from QVAgent import QVAgent
 import csv
 import matplotlib.pyplot as mpl
 
@@ -39,6 +40,7 @@ random_count = int(input("How many Random agents would you like to simulate?\n")
 q_count = int(input("How many Q-learning agents would you like to simulate?\n"))
 sarsa_count = int(input("How many SARSA agents would you like to simulate?\n"))
 expected_sarsa_count = int(input("How many Expected SARSA agents would you like to simulate?\n"))
+qv_count = int(input("How many QV-learning agents would you like to simulate?\n"))
 environment_size = int(input("How many nodes would you like the environment to have?\n"))
 
 # Calculate the total number of agents.
@@ -55,6 +57,8 @@ for _ in range(sarsa_count):
     agents.append(SarsaAgent())
 for _ in range(expected_sarsa_count):
     agents.append(ExpectedSarsaAgent())
+for _ in range(qv_count):
+    agents.append(QVAgent())
 
 # Create an environment consisting of environment_size nodes where environment_size is the argument of the constructor.
 environment = Environment(environment_size)
@@ -68,6 +72,7 @@ print("Agents done traversing. Check output.csv for record of simulation.")
 total_reward_q = []
 total_reward_sarsa = []
 total_reward_expected_sarsa = []
+total_reward_qv = []
 
 with open('output.csv', 'r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
@@ -79,16 +84,20 @@ with open('output.csv', 'r') as csvfile:
             total_reward_sarsa.append(float(row[6]))
         if row[1] == "Expected SARSA":
             total_reward_expected_sarsa.append(float(row[6]))
+        if row[1] == "QV-learning":
+            total_reward_qv.append(float(row[6]))
 
 mpl.xlabel('Time steps')
 mpl.ylabel('Total Reward')
 timesteps_q = list(range(len(total_reward_q)))
 timesteps_sarsa = list(range(len(total_reward_sarsa)))
 timesteps_expected_sarsa = list(range(len(total_reward_expected_sarsa)))
+timesteps_qv = list(range(len(total_reward_qv)))
 
 mpl.plot(timesteps_q, total_reward_q, label='Q-Learning')
 mpl.plot(timesteps_sarsa, total_reward_sarsa, label='SARSA')
 mpl.plot(timesteps_expected_sarsa, total_reward_expected_sarsa, label='Expected SARSA')
+mpl.plot(timesteps_qv, total_reward_qv, label='QV-Learning')
 mpl.legend()
-if sarsa_count == q_count == expected_sarsa_count == 1:
+if sarsa_count == q_count == expected_sarsa_count == qv_count == 1:
     mpl.show()
