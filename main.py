@@ -73,6 +73,7 @@ for agent in agents:
 print("Agents done traversing. Check output.csv for record of simulation.")
 file.close()
 
+# If certain conditions are met, produce graphs.
 if sarsa_count == q_count == expected_sarsa_count == qv_count == 1:
     plotter = Plotter()
     plotter.one_simulation_graph()
