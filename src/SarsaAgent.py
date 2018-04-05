@@ -1,20 +1,19 @@
-# The QVAgent relies on QV-learning to obtain a reward. The agent either randomly explores the environment or
+# The SarsaAgent relies on Sarsa to obtain a reward. The agent either randomly explores the environment or
 # chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
 # wander aimlessly until it randomly comes across the reward.
 
 # Random is required for the RNG.
 import numpy as np
 import random
-from LearningAgent import LearningAgent
+from src.LearningAgent import LearningAgent
 
 
-class QVAgent(LearningAgent):
-    agent_type = "QV-learning"
+class SarsaAgent(LearningAgent):
+    agent_type = "SARSA"
 
     def __init__(self):
         self.actions = []
         self.q_table = {}
-        self.v_table = {}
 
     # If the current state hasn't been experienced yet, add it and create a 0 column for it.
     # If the current state has been experienced, return the state and action value.
@@ -24,17 +23,6 @@ class QVAgent(LearningAgent):
         if action is None:
             return self.q_table[state]
         return self.q_table[state][action]
-
-    # If a state has a reward, the value is 1. If the state doesn't have a reward, the value is 0.
-    # If the state isn't in the v table yet, add it.
-    def v(self, state=None):
-        if state is None:
-            return self.v_table
-        if state not in self.v_table and state.reward is False:
-            self.v_table[state] = 0
-        elif state not in self.v_table and state.reward is True:
-            self.v_table[state] = 1
-        return self.v_table[state]
 
     # If the RNG rolls less than epsilon, randomly choose an action based on available actions.
     # Otherwise, choose an action based on experience (refer to q_table).
@@ -50,7 +38,7 @@ class QVAgent(LearningAgent):
 
     # See Agent.py
     def traverse(self, environment, index, csv_writer):
-        print("QV-learning Agent:")
+        print("Sarsa Agent:")
         # Initialize possible actions based on environment size.
         for node in environment.nodes:
             self.actions.append(node.state)
@@ -92,16 +80,14 @@ class QVAgent(LearningAgent):
             alpha = self.decaying_alphas[episode]
             action = self.choose_action(self.current_state)
             # For each step, it chooses a new action, determines the next state, reward, and if the next state is
-            # terminal or not. Then the QV function is calculated and the agent moves to the next state.
+            # terminal or not. Then the Sarsa function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
                 next_state, reward, terminal_state = act(self.current_state, action)
                 next_action = self.choose_action(next_state)
                 total_reward += reward
-                self.v()[self.current_state] = self.v(self.current_state) + (alpha * (
-                        reward + (self.gamma * self.v(next_state)) - self.v(self.current_state)))
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
-                        reward + self.gamma * self.v(next_state) - self.q(self.current_state, action))
+                        reward + self.gamma * self.q(next_state, next_action) - self.q(self.current_state, action))
                 self.current_state = next_state
                 action = next_action
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,

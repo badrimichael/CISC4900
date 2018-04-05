@@ -4,7 +4,7 @@
 
 # Importing random is necessary for random number generators.
 import random
-from Agent import Agent
+from src.Agent import Agent
 
 
 # See Agent.py.

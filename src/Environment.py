@@ -3,7 +3,7 @@
 # argument. These nodes are held in a list of nodes. The environment is capable of tracking the performance
 # of the agent.
 
-from Node import Node
+from src.Node import Node
 
 
 class Environment(object):

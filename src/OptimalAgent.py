@@ -2,7 +2,7 @@
 # It will always move to the next state in the environment nodes list.
 # Since it is guaranteed to move forward, it is guaranteed to obtain rewards.
 
-from Agent import Agent
+from src.Agent import Agent
 
 
 class OptimalAgent(Agent):
