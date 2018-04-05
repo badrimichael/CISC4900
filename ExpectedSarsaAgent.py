@@ -2,7 +2,7 @@
 # or chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
 # wander aimlessly until it randomly comes across the reward.
 
-# Numpy is required as the q_table is a matrix. Random is also required for the RNG.
+# Random is required for the RNG.
 import numpy as np
 import random
 from LearningAgent import LearningAgent
@@ -99,3 +99,5 @@ class ExpectedSarsaAgent(LearningAgent):
                     break
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
+        print("Total time-steps: " + str(time))
+        return time

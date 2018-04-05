@@ -1,3 +1,8 @@
+# The QVAgent relies on QV-learning to obtain a reward. The agent either randomly explores the environment or
+# chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
+# wander aimlessly until it randomly comes across the reward.
+
+# Random is required for the RNG.
 import numpy as np
 import random
 from LearningAgent import LearningAgent
@@ -20,6 +25,8 @@ class QVAgent(LearningAgent):
             return self.q_table[state]
         return self.q_table[state][action]
 
+    # If a state has a reward, the value is 1. If the state doesn't have a reward, the value is 0.
+    # If the state isn't in the v table yet, add it.
     def v(self, state=None):
         if state is None:
             return self.v_table
@@ -104,3 +111,5 @@ class QVAgent(LearningAgent):
                     break
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
+        print("Total time-steps: " + str(time))
+        return time

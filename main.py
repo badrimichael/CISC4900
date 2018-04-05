@@ -15,12 +15,13 @@ from SarsaAgent import SarsaAgent
 from ExpectedSarsaAgent import ExpectedSarsaAgent
 from QVAgent import QVAgent
 import csv
-import matplotlib.pyplot as mpl
-
+from Plotter import Plotter
 
 # Creates csv file and initializes it with header information.
+file = open('output.csv', 'w')
+
+
 def create_output_csv():
-    file = open('output.csv', 'w')
     header_names = ['Agent', 'Agent Type', 'Episode', 'Time', 'State', 'Action', 'Reward']
     csv_writer = csv.DictWriter(file, fieldnames=header_names, lineterminator='\n')
     csv_writer.writeheader()
@@ -29,6 +30,8 @@ def create_output_csv():
 
 # Stores agents in a list. One agent will traverse at a time.
 agents = []
+
+agent_record = {}
 
 # Initialize DictWriter object for csv file.
 writer = create_output_csv()
@@ -66,38 +69,13 @@ environment = Environment(environment_size)
 # For each agent in the list of agents, begin traversal.
 print("\nRunning...")
 for agent in agents:
-    agent.traverse(environment, agents.index(agent) + 1, writer)
+    agent_record[agents.index(agent) + 1] = agent.traverse(environment, agents.index(agent) + 1, writer)
 print("Agents done traversing. Check output.csv for record of simulation.")
+file.close()
 
-total_reward_q = []
-total_reward_sarsa = []
-total_reward_expected_sarsa = []
-total_reward_qv = []
-
-with open('output.csv', 'r') as csvfile:
-    plots = csv.reader(csvfile, delimiter=',')
-    next(csvfile)
-    for row in plots:
-        if row[1] == "Q-learning":
-            total_reward_q.append(float(row[6]))
-        if row[1] == "SARSA":
-            total_reward_sarsa.append(float(row[6]))
-        if row[1] == "Expected SARSA":
-            total_reward_expected_sarsa.append(float(row[6]))
-        if row[1] == "QV-learning":
-            total_reward_qv.append(float(row[6]))
-
-mpl.xlabel('Time steps')
-mpl.ylabel('Total Reward')
-timesteps_q = list(range(len(total_reward_q)))
-timesteps_sarsa = list(range(len(total_reward_sarsa)))
-timesteps_expected_sarsa = list(range(len(total_reward_expected_sarsa)))
-timesteps_qv = list(range(len(total_reward_qv)))
-
-mpl.plot(timesteps_q, total_reward_q, label='Q-Learning')
-mpl.plot(timesteps_sarsa, total_reward_sarsa, label='SARSA')
-mpl.plot(timesteps_expected_sarsa, total_reward_expected_sarsa, label='Expected SARSA')
-mpl.plot(timesteps_qv, total_reward_qv, label='QV-Learning')
-mpl.legend()
 if sarsa_count == q_count == expected_sarsa_count == qv_count == 1:
-    mpl.show()
+    plotter = Plotter()
+    plotter.one_simulation_graph()
+elif sarsa_count == q_count == expected_sarsa_count == qv_count:
+    plotter = Plotter()
+    plotter.average_graph(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
