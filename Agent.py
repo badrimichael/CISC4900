@@ -56,7 +56,7 @@ class Agent(ABC):
     # Learning agents can write their activities to an output file.
     @staticmethod
     def write_to_csv(writer, episode, state, total_reward, time, action, index, agent_type):
-        file = open('output/output.csv', 'a')
+        file = open('output.csv', 'a')
         writer.writerow(
             {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
              'Agent': index, 'Agent Type': agent_type})

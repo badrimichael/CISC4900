@@ -1,15 +1,15 @@
-# The ExpectedSarsaAgent relies on  Expected Sarsa to obtain a reward. The agent either randomly explores the environment
-# or chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
+# The SarsaAgent relies on Sarsa to obtain a reward. The agent either randomly explores the environment or
+# chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
 # wander aimlessly until it randomly comes across the reward.
 
 # Random is required for the RNG.
 import numpy as np
 import random
-from src.LearningAgent import LearningAgent
+from LearningAgent import LearningAgent
 
 
-class ExpectedSarsaAgent(LearningAgent):
-    agent_type = "Expected SARSA"
+class SarsaAgent(LearningAgent):
+    agent_type = "SARSA"
 
     def __init__(self):
         self.actions = []
@@ -38,7 +38,7 @@ class ExpectedSarsaAgent(LearningAgent):
 
     # See Agent.py
     def traverse(self, environment, index, csv_writer):
-        print("Expected Sarsa Agent:")
+        print("Sarsa Agent:")
         # Initialize possible actions based on environment size.
         for node in environment.nodes:
             self.actions.append(node.state)
@@ -73,25 +73,23 @@ class ExpectedSarsaAgent(LearningAgent):
             return state, reward, terminal_state
 
         # For each episode, the initial state is the starting state in the environment,
-        # the reward is zero'd, the alpha chosen corresponds to the number of the episode.
+        # the reward is zero'd, the alpha chosen corresponds to the number of the episode.\
         total_reward = 0
         for episode in range(self.number_of_episodes):
             self.current_state = environment.starting_node
             alpha = self.decaying_alphas[episode]
+            action = self.choose_action(self.current_state)
             # For each step, it chooses a new action, determines the next state, reward, and if the next state is
             # terminal or not. Then the Sarsa function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
-                action = self.choose_action(self.current_state)
                 next_state, reward, terminal_state = act(self.current_state, action)
+                next_action = self.choose_action(next_state)
                 total_reward += reward
-                best_action = np.argmax(self.q(next_state))
-                expected_return = (
-                        (1 - self.epsilon) * self.q(next_state, best_action) + (self.epsilon / len(self.actions))
-                        * sum(self.q(next_state, act) for act in range(len(self.actions))))
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
-                        reward + self.gamma * expected_return - self.q(self.current_state, action))
+                        reward + self.gamma * self.q(next_state, next_action) - self.q(self.current_state, action))
                 self.current_state = next_state
+                action = next_action
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
                                   self.agent_type)
                 if terminal_state:

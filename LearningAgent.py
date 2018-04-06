@@ -3,7 +3,7 @@
 # learning agents.
 
 from abc import ABC
-from src.Agent import Agent
+from Agent import Agent
 import numpy as np
 
 

@@ -24,7 +24,7 @@ class Plotter(object):
         total_reward_qv = []
 
         # Open the file to read it.
-        with open('output/output.csv', 'r') as csvfile:
+        with open('output.csv', 'r') as csvfile:
             # Each value is separated by a comma.
             plots = csv.reader(csvfile, delimiter=',')
             # Skips header row.
@@ -100,7 +100,7 @@ class Plotter(object):
         # their agent number or index.
         for _ in number_of_agents:
             agent_temp = []
-            with open('output/output.csv', 'r') as csvfile:
+            with open('output.csv', 'r') as csvfile:
                 plots = csv.DictReader(csvfile, delimiter=',')
                 for row in plots:
                     if int(row['Agent']) == _:
@@ -125,12 +125,16 @@ class Plotter(object):
         # Simplified version of the above code using pop().
         for _ in range(q_count):
             q_agents.append(agent_list.pop())
+        print(len(agent_list))
         for _ in range(sarsa_count):
             sarsa_agents.append(agent_list.pop())
+        print(len(agent_list))
         for _ in range(expected_sarsa_count):
             expected_sarsa_agents.append(agent_list.pop())
+        print(len(agent_list))
         for _ in range(qv_count):
             qv_agents.append(agent_list.pop())
+        print(len(agent_list))
 
         # Slice the nested lists to the min_timestep.
         q_temp = []
@@ -182,5 +186,5 @@ class Plotter(object):
         # Display the legend.
         mpl.legend()
 
-        # Show the graph.
+        #Show the graph.
         mpl.show()

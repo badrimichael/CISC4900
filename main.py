@@ -7,18 +7,18 @@
 # This follows standard object oriented programming styles in which the main method tends to be the least busy.
 # This current main method is essentially a test to ensure environments are created properly and agents act as intended.
 
-from src.Environment import Environment
-from src.RandomAgent import RandomAgent
-from src.OptimalAgent import OptimalAgent
-from src.QAgent import QAgent
-from src.SarsaAgent import SarsaAgent
-from src.ExpectedSarsaAgent import ExpectedSarsaAgent
-from src.QVAgent import QVAgent
+from Environment import Environment
+from RandomAgent import RandomAgent
+from OptimalAgent import OptimalAgent
+from QAgent import QAgent
+from SarsaAgent import SarsaAgent
+from ExpectedSarsaAgent import ExpectedSarsaAgent
+from QVAgent import QVAgent
 import csv
-from src.Plotter import Plotter
+from Plotter import Plotter
 
 # Creates csv file and initializes it with header information.
-file = open('output/output.csv', 'w')
+file = open('output.csv', 'w')
 
 
 def create_output_csv():
