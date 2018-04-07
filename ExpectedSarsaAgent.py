@@ -85,10 +85,11 @@ class ExpectedSarsaAgent(LearningAgent):
                 action = self.choose_action(self.current_state)
                 next_state, reward, terminal_state = act(self.current_state, action)
                 total_reward += reward
-                best_action = np.argmax(self.q(next_state))
-                expected_return = (
-                        (1 - self.epsilon) * self.q(next_state, best_action) + (self.epsilon / len(self.actions))
-                        * sum(self.q(next_state, act) for act in range(len(self.actions))))
+                # best_action = np.argmax(self.q(next_state))
+                # expected_return = (
+                #         (1 - self.epsilon) * self.q(next_state, best_action) + (self.epsilon / len(self.actions))
+                #         * sum(self.q(next_state, act) for act in range(len(self.actions))))
+                expected_return = np.max(self.q(next_state))
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
                         reward + self.gamma * expected_return - self.q(self.current_state, action))
                 self.current_state = next_state
