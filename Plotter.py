@@ -7,19 +7,21 @@ import csv
 import matplotlib.pyplot as mpl
 import numpy as np
 import time
-import pandas
+from pandas import read_csv
 
 
 class Plotter(object):
+
     # This method only generates a graph when one of each type of learning agent is simulated.
     # That is, one Q-learning agent, one SARSA agent, one Expected SARSA agent,
     # and one QV-Learning agent. The total reward data is read from the output.csv file and appended
     # into empty lists; one for each learning agent. This data is then graphed versus the time-steps.
     @staticmethod
     def one_simulation_graph():
-        print("Generating one simulation graph...")
+
         # The total reward per time-step is read from the output.csv file
         # and appended into lists for each agent type.
+        print("Generating one simulation graph...")
         total_reward_q = []
         total_reward_sarsa = []
         total_reward_expected_sarsa = []
@@ -79,8 +81,11 @@ class Plotter(object):
     # list that is then graphed versus the minimum time-step of all simulated agents.
     @staticmethod
     def average_graph(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count):
+
+        # Store the starting time for later calculating compute time.
         starting_time = int(time.time())
         print("Generating average graph...")
+
         # Lambda to determine the minimum time-step value from the entire record of
         # simulated agents. This value is saved into a variable for later.
         print("Calculating minimum time-step...")
@@ -105,6 +110,14 @@ class Plotter(object):
         # At the end of the for loop, agent_list will be a nested list of every agent's rewards, sorted by
         # their agent number or index.
         print("Parsing output.csv...")
+        df = read_csv('output.csv', skiprows=1, delimiter=',', )
+        for _ in number_of_agents:
+            agent_temp = []
+            for row in df.itertuples():
+                if int(row[1]) == _:
+                    agent_temp.append(int(row[7]))
+            agent_list.append(agent_temp)
+
         # Slow, bult in csv method.
         # for _ in number_of_agents:
         #     agent_temp = []
@@ -115,18 +128,7 @@ class Plotter(object):
         #                 agent_temp.append(int(row['Reward']))
         #         agent_list.append(agent_temp)
 
-        # Quicker pandas read csv. (6 times faster).
-        df = pandas.read_csv('output.csv', skiprows=1, delimiter=',', )
-        for _ in number_of_agents:
-            agent_temp = []
-            for row in df.itertuples():
-                if int(row[1]) == _:
-                    agent_temp.append(int(row[7]))
-            agent_list.append(agent_temp)
-
-        #  The program always simulates the exact number of agents input by the user.
-        #  This allows us to cleverly move agent data from agent_list to the corresponding learning agent list.
-        #  Since Q-learning agents are always first, just transfer the first q_count agents on the top of agent_list.
+        # Slower method of the below code.
         # for _ in range(q_count):
         #     q_agents.append(agent_list[_])
         # SARSA agents are always second, so start reading agents in after q_count elements of the list, and read until
@@ -139,7 +141,9 @@ class Plotter(object):
         #                sarsa_count + q_count + expected_sarsa_count + qv_count):
         #     qv_agents.append(agent_list[_])
 
-        # Simplified version of the above code using pop().
+        #  The program always simulates the exact number of agents input by the user.
+        #  This allows us to cleverly move agent data from agent_list to the corresponding learning agent list.
+        #  Since Q-learning agents are always first, just transfer the first q_count agents on the top of agent_list.
         for _ in range(q_count):
             q_agents.append(agent_list.pop())
 
@@ -152,8 +156,8 @@ class Plotter(object):
         for _ in range(qv_count):
             qv_agents.append(agent_list.pop())
 
-        print("Slicing nested lists...")
         # Slice the nested lists to the min_timestep.
+        print("Slicing nested lists...")
         q_temp = []
         for agent in q_agents:
             sliced_agent = agent[:min_timesteps]
@@ -178,8 +182,8 @@ class Plotter(object):
             qv_temp.append(sliced_agent)
         qv_agents = qv_temp
 
-        print("Converting lists and taking the average...")
         # Convert the lists to np arrays and take the average.
+        print("Converting lists and taking the average...")
         average_q = np.mean(np.array([np.array(a) for a in q_agents]), axis=0)
         average_sarsa = np.mean(np.array([np.array(b) for b in sarsa_agents]), axis=0)
         average_expected_sarsa = np.mean(np.array([np.array(c) for c in expected_sarsa_agents]), axis=0)
@@ -195,8 +199,8 @@ class Plotter(object):
         # In this case, every average list will be plotted against the same number of timesteps.
         timesteps = list(range(min_timesteps))
 
-        print("Plotting....")
         # Plot everything with labels.
+        print("Plotting....")
         mpl.plot(timesteps, average_q, label='Q-Learning')
         mpl.plot(timesteps, average_sarsa, label='SARSA')
         mpl.plot(timesteps, average_expected_sarsa, label='Expected SARSA')
@@ -205,8 +209,7 @@ class Plotter(object):
         # Display the legend.
         mpl.legend()
 
-        # Show the graph.
-        end_time = int(time.time())
-        print("Process took " + str(end_time - starting_time) + " seconds.")
+        # Show the graph and print compute time.
+        print("Process took " + str(int(time.time()) - starting_time) + " seconds.")
         print("Done generating average graph.")
         mpl.show()
