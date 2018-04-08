@@ -7,6 +7,7 @@ import csv
 import matplotlib.pyplot as mpl
 import numpy as np
 import time
+import pandas
 
 
 class Plotter(object):
@@ -104,14 +105,24 @@ class Plotter(object):
         # At the end of the for loop, agent_list will be a nested list of every agent's rewards, sorted by
         # their agent number or index.
         print("Parsing output.csv...")
+        # Slow, bult in csv method.
+        # for _ in number_of_agents:
+        #     agent_temp = []
+        #     with open('output.csv', 'r') as csvfile:
+        #         plots = csv.DictReader(csvfile, delimiter=',')
+        #         for row in plots:
+        #             if int(row['Agent']) == _:
+        #                 agent_temp.append(int(row['Reward']))
+        #         agent_list.append(agent_temp)
+
+        # Quicker pandas read csv. (6 times faster).
+        df = pandas.read_csv('output.csv', skiprows=1, delimiter=',', )
         for _ in number_of_agents:
             agent_temp = []
-            with open('output.csv', 'r') as csvfile:
-                plots = csv.DictReader(csvfile, delimiter=',')
-                for row in plots:
-                    if int(row['Agent']) == _:
-                        agent_temp.append(int(row['Reward']))
-                agent_list.append(agent_temp)
+            for row in df.itertuples():
+                if int(row[1]) == _:
+                    agent_temp.append(int(row[7]))
+            agent_list.append(agent_temp)
 
         #  The program always simulates the exact number of agents input by the user.
         #  This allows us to cleverly move agent data from agent_list to the corresponding learning agent list.
