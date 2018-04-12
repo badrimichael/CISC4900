@@ -64,6 +64,6 @@ class Agent(ABC):
 
     @staticmethod
     def surge(environment):
-        random_advance = random.randint(1, len(environment.nodes) - 1)
+        random_advance = random.randint(1, len(environment.nodes) - 2)
         current_state = environment.nodes[random_advance]
         print("Agent surged to node " + str(current_state.state))

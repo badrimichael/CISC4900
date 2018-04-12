@@ -109,8 +109,9 @@ class Plotter(object):
         # Read all reward values into a temporary list and then append that list to agent_list.
         # At the end of the for loop, agent_list will be a nested list of every agent's rewards, sorted by
         # their agent number or index.
-        print("Parsing output.csv...")
+        print("Reading output.csv...")
         df = read_csv('output.csv', skiprows=1, delimiter=',', )
+        print("Parsing output.csv...")
         for _ in number_of_agents:
             agent_temp = []
             for row in df.itertuples():

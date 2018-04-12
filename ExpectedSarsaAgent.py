@@ -49,7 +49,7 @@ class ExpectedSarsaAgent(LearningAgent):
         def act(state, action):
             random_surge = random.uniform(0, 1)
             if state == environment.starting_node and random_surge < self.probability_of_surge:
-                random_advance = random.randint(1, len(environment.nodes) - 1)
+                random_advance = random.randint(1, len(environment.nodes) - 2)
                 state = environment.nodes[random_advance]
                 terminal_state = False
                 reward = 0
