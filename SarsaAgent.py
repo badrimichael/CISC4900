@@ -2,9 +2,6 @@
 # chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
 # wander aimlessly until it randomly comes across the reward.
 
-# Random is required for the RNG.
-import numpy as np
-import random
 from LearningAgent import LearningAgent
 
 
@@ -15,27 +12,6 @@ class SarsaAgent(LearningAgent):
         self.actions = []
         self.q_table = {}
 
-    # If the current state hasn't been experienced yet, add it and create a 0 column for it.
-    # If the current state has been experienced, return the state and action value.
-    def q(self, state, action=None):
-        if state not in self.q_table:
-            self.q_table[state] = np.zeros(len(self.actions))
-        if action is None:
-            return self.q_table[state]
-        return self.q_table[state][action]
-
-    # If the RNG rolls less than epsilon, randomly choose an action based on available actions.
-    # Otherwise, choose an action based on experience (refer to q_table).
-    def choose_action(self, state):
-        if random.uniform(0, 1) < self.epsilon:
-            action = random.choice(self.actions)
-            # print("RNG rolled " + str(action) + ".", end="", flush=True)
-            return action
-        else:
-            action = np.argmax(self.q(state))
-            #  print("Best action from experience is " + str(action) + ".", end="", flush=True)
-            return action
-
     # See Agent.py
     def traverse(self, environment, index, csv_writer):
         print("Sarsa Agent:")
@@ -43,34 +19,6 @@ class SarsaAgent(LearningAgent):
         for node in environment.nodes:
             self.actions.append(node.state)
         time = 0
-
-        # Based on current state and action, decide where to go next, if the agent has reached a terminal state,
-        # and what reward is obtained.
-        def act(state, action):
-            random_surge = random.uniform(0, 1)
-            if state == environment.starting_node and random_surge < self.probability_of_surge:
-                random_advance = random.randint(1, len(environment.nodes) - 2)
-                state = environment.nodes[random_advance]
-                terminal_state = False
-                reward = 0
-                print("Agent surged to node " + str(state.state))
-            # If action is 1, the agent can progress to the next state.
-            elif action == 1:
-                state = state.next
-                print("Agent moved to node " + str(state.state))
-                terminal_state = False
-                reward = 0
-            # Else, the agent is returned to the starting state of the environment.
-            else:
-                reward = 0
-                state = environment.starting_node
-                print("Agent moved to starting state.")
-                terminal_state = False
-            # If current state is a reward, give reward.
-            if state.reward is True:
-                reward = 100
-                terminal_state = True
-            return state, reward, terminal_state
 
         # For each episode, the initial state is the starting state in the environment,
         # the reward is zero'd, the alpha chosen corresponds to the number of the episode.\
@@ -83,7 +31,7 @@ class SarsaAgent(LearningAgent):
             # terminal or not. Then the Sarsa function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
-                next_state, reward, terminal_state = act(self.current_state, action)
+                next_state, reward, terminal_state = self.act(self.current_state, action, environment)
                 next_action = self.choose_action(next_state)
                 total_reward += reward
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
