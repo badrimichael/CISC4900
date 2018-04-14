@@ -1,11 +1,14 @@
-# This program creates an environment comprised of nodes and different agents to navigate these environments.
-# The goal of the agent is to learn how to maximize the reward value through reinforcement learning algorithms.
-# The actions of the agents will be saved in a file for analysis.
+# Project Title: Simulations of Reinforcement Learning in an Ecological Task
+# Name: Michael Badri, Brooklyn College Department of Computer and Information Science
+# Supervisor: Dr. Stefano Ghirlanda, Brooklyn College Department of Psychology
 
-# This purpose of this main method is to be as simple as possible. The environment(s) and agent(s)
+# The goal of this project is to simulate the ecological task of behavior chaining using reinforcement learning
+# algorithms
+
+# The purpose of this main method is to be as simple as possible. The environment(s) and agent(s)
 # will be created here and agents can be reused for multiple environments (see Agent.py and Environment.py).
 # This follows standard object oriented programming styles in which the main method tends to be the least busy.
-# This current main method is essentially a test to ensure environments are created properly and agents act as intended.
+# The output.csv file used for analysis and graphing is created with its header information here.
 
 from Environment import Environment
 from RandomAgent import RandomAgent
@@ -15,6 +18,7 @@ from SarsaAgent import SarsaAgent
 from ExpectedSarsaAgent import ExpectedSarsaAgent
 from QVAgent import QVAgent
 import csv
+import time
 from Plotter import Plotter
 
 
@@ -67,9 +71,11 @@ def main():
 
     # For each agent in the list of agents, begin traversal.
     print("\nRunning...")
+    starting_time = int(time.time())
     for agent in agents:
         agent_record[agents.index(agent) + 1] = agent.traverse(environment, agents.index(agent) + 1, writer)
     print("Agents done traversing. Check output.csv for record of simulation.")
+    print("Traversal process took " + str(int(time.time()) - starting_time) + " seconds.")
     file.close()
 
     # If certain conditions are met, produce graphs.

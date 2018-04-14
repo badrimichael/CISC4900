@@ -1,7 +1,6 @@
-# The environment class creates an environment of Nodes (see Node.py). Each node is "told" the node in front
-# of it (unless it is the final node). Nodes are dynamically created based on the constructor
-# argument. These nodes are held in a list of nodes. The environment is capable of tracking the performance
-# of the agent.
+# The environment class creates an environment of Nodes (see Node.py) based on Markov Decision Processes or finite
+# automata. Nodes are dynamically created based on the constructor argument. These nodes are held in a list of nodes.
+
 
 from Node import Node
 

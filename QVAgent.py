@@ -1,13 +1,14 @@
-# The QVAgent relies on QV-learning to obtain a reward. The agent either randomly explores the environment or
-# chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
-# wander aimlessly until it randomly comes across the reward.
+# The QVAgent relies on QV-learning to obtain a reward.
 
+# The QVAgent is a LearningAgent.
 from LearningAgent import LearningAgent
 
 
 class QVAgent(LearningAgent):
+    # Explicitly state the reinforcement learning algorithm for the output.csv file.
     agent_type = "QV-learning"
 
+    # Constructor is needed for initializing more than one agent.
     def __init__(self):
         self.actions = []
         self.q_table = {}

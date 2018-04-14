@@ -1,13 +1,14 @@
-# The SarsaAgent relies on Sarsa to obtain a reward. The agent either randomly explores the environment or
-# chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
-# wander aimlessly until it randomly comes across the reward.
+# The SarsaAgent relies on Sarsa to obtain a reward.
 
+# The SarsaAgent is a LearningAgent.
 from LearningAgent import LearningAgent
 
 
 class SarsaAgent(LearningAgent):
+    # Explicitly state the reinforcement learning algorithm for the output.csv file.
     agent_type = "SARSA"
 
+    # Constructor is needed for initializing more than one agent.
     def __init__(self):
         self.actions = []
         self.q_table = {}

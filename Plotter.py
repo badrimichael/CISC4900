@@ -21,7 +21,7 @@ class Plotter(object):
 
         # The total reward per time-step is read from the output.csv file
         # and appended into lists for each agent type.
-        print("Generating one simulation graph...")
+        print("\nGenerating one simulation graph...")
         total_reward_q = []
         total_reward_sarsa = []
         total_reward_expected_sarsa = []
@@ -84,7 +84,7 @@ class Plotter(object):
 
         # Store the starting time for later calculating compute time.
         starting_time = int(time.time())
-        print("Generating average graph...")
+        print("\nGenerating average graph...")
 
         # Lambda to determine the minimum time-step value from the entire record of
         # simulated agents. This value is saved into a variable for later.
@@ -211,6 +211,6 @@ class Plotter(object):
         mpl.legend()
 
         # Show the graph and print compute time.
-        print("Process took " + str(int(time.time()) - starting_time) + " seconds.")
+        print("Graphing process took " + str(int(time.time()) - starting_time) + " seconds.")
         print("Done generating average graph.")
         mpl.show()

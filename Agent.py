@@ -1,44 +1,48 @@
-# The Agent class details all attributes and abilities of an agent. These will start simple and become more complex
-# later on. An agent may be instantiated with a probability to surge forward. Otherwise, every agent is created the
-# same. They are created outside of the environment (current_state initial value is None) and they are created without
-# the reward (reward initial value is False). Some agents will traverse an environment based on learning algorithms
-# or random number generators.
+# The Agent class details all attributes and methods of an agent, regardless of whether or not it has the ability to
+# learn. Agents are created outside of the environment and then inserted into the environment specified in traverse().
 
 # Abstract class.
+# Random needed for RNG.
 from abc import ABC, abstractmethod
 import random
 
 
-# Some agents have a probability to surge forward.
-# All have a current state, and a reward field. All agents are
-# also capable of traversal through an environment and are capable
-# of recording their actions in a csv output file.
 class Agent(ABC):
     # Actions list holds all of the possible actions. For an environment of m states, the actions are 0 - m-1.
     actions = []
 
-    # Number of episodes to attempt. This can be any number.
+    # Number of episodes to attempt.
+    # This can be any integer > 0.
     number_of_episodes = 500
 
-    # The number of steps (actions) to take per episode. This can be any number, does not have to equal number
-    # of episodes.
+    # The number of steps (actions) to take per episode.
+    # This can be any integer > 0.
     number_of_steps = 100
 
     # The state where the Agent is currently located.
+    # Initially set to None.
     current_state = None
 
     # The probability of the Agent surging to a higher state from the starting state.
     probability_of_surge = 0.05
 
     # Whether or not the Agent has a reward.
+    # This only applies to Optimal and Random agents.
+    # This is overridden for learning agents in LearningAgent.py.
     reward = False
 
+    # String that holds the reinforcement learning algorithm the agent is utilizing.
     @property
     @abstractmethod
     def agent_type(self):
         pass
 
-    # The agent enters the environment.
+    # The agent enters the environment and attempts to reach the reward.
+    # Optimal and Random agents do not attempt to learn the correct path to the reward.
+    # All Learning agents utilize some reinforcement learning algorithm to learn the correct path to the reward.
+    # The environment that the agent will traverse, the agent number (index), and the csv_writer object created
+    # in main.py are passed so the agent may record its actions in the output.csv.
+    # This method returns the timesteps it took for a traversal, so Plotter.py can graph create an average graph.
     @abstractmethod
     def traverse(self, environment, index, csv_writer):
         pass
@@ -53,15 +57,7 @@ class Agent(ABC):
     def set_current_state(self, current_state):
         self.current_state = current_state
 
-    # Learning agents can write their activities to an output file.
-    @staticmethod
-    def write_to_csv(writer, episode, state, total_reward, time, action, index, agent_type):
-        file = open('output.csv', 'a')
-        writer.writerow(
-            {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
-             'Agent': index, 'Agent Type': agent_type})
-        file.close()
-
+    # If the agent surges, it chooses a random node to jump to.
     @staticmethod
     def surge(environment):
         random_advance = random.randint(1, len(environment.nodes) - 2)

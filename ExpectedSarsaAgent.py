@@ -1,14 +1,16 @@
-# The ExpectedSarsaAgent relies on  Expected Sarsa to obtain a reward. The agent either randomly explores the environment
-# or chooses the best action from experience. The agent gains experience from randomly exploring, so at first it will
-# wander aimlessly until it randomly comes across the reward.
+# The ExpectedSarsaAgent relies on  Expected Sarsa to obtain a reward.
 
-import numpy as np
+# The ExpectedSarsaAgent is a LearningAgent.
+# The max method from numpy module is needed in the Bellman equation.
 from LearningAgent import LearningAgent
+import numpy as np
 
 
 class ExpectedSarsaAgent(LearningAgent):
+    # Explicitly state the reinforcement learning algorithm for the output.csv file.
     agent_type = "Expected SARSA"
 
+    # Constructor is needed for initializing more than one agent.
     def __init__(self):
         self.actions = []
         self.q_table = {}
