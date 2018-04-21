@@ -190,7 +190,7 @@ class Plotter(object):
         if q_count > 0:
             mpl.hist(q_agents, list(x * 1000 for x in range(1, int((max(q_agents)) / 1000 + 2))), histtype="bar",
                      rwidth=0.5)
-            mpl.title(str(reward_value) + " total reward with" + str(q_count) + " Q-Learning")
+            mpl.title(str(reward_value) + " total reward: " + str(q_count) + " Q-Learning agents")
             mpl.xlabel("Time-step")
             mpl.ylabel("Number of Times")
             mpl.show()
@@ -199,7 +199,7 @@ class Plotter(object):
             mpl.hist(sarsa_agents, list(x * 1000 for x in range(1, int((max(sarsa_agents)) / 1000 + 2))),
                      histtype="bar",
                      rwidth=0.5)
-            mpl.title(str(reward_value) + " total reward with" + str(sarsa_count) + " SARSA")
+            mpl.title(str(reward_value) + " total reward: " + str(sarsa_count) + " SARSA agents")
             mpl.xlabel("Time-step")
             mpl.ylabel("Number of Times")
             mpl.show()
@@ -208,7 +208,7 @@ class Plotter(object):
             mpl.hist(expected_sarsa_agents,
                      list(x * 1000 for x in range(1, int((max(expected_sarsa_agents)) / 1000 + 2))),
                      histtype="bar", rwidth=0.5)
-            mpl.title(str(reward_value) + " total reward with" + str(expected_sarsa_count) + " Expected SARSA")
+            mpl.title(str(reward_value) + " total reward: " + str(expected_sarsa_count) + " Expected SARSA agents")
             mpl.xlabel("Time-step")
             mpl.ylabel("Number of Times")
             mpl.show()
@@ -216,7 +216,7 @@ class Plotter(object):
         if qv_count > 0:
             mpl.hist(qv_agents, list(x * 1000 for x in range(1, int((max(qv_agents)) / 1000 + 2))), histtype="bar",
                      rwidth=0.5)
-            mpl.title(str(reward_value) + " total reward with" + str(qv_count) + " QV-Learning")
+            mpl.title(str(reward_value) + " total reward: " + str(qv_count) + " QV-Learning agents")
             mpl.xlabel("Time-step")
             mpl.ylabel("Number of Times")
             mpl.show()
