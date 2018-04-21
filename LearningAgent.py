@@ -33,7 +33,7 @@ class LearningAgent(Agent, ABC):
     q_table = {}
 
     # Probability of randomly turning an action of 1 to an action of 0.
-    random_fail = 0.10
+    random_fail = 0
 
     # Learning agents can write their activities to an output file.
     @staticmethod

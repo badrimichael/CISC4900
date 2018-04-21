@@ -79,12 +79,13 @@ def main():
     file.close()
 
     # If certain conditions are met, produce graphs.
-    if sarsa_count == q_count == expected_sarsa_count == qv_count == 1:
+    # if sarsa_count == q_count == expected_sarsa_count == qv_count:
+    #     plotter = Plotter()
+    #     plotter.average_graph(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
+
+    if sarsa_count > 0 or q_count > 0 or expected_sarsa_count > 0 or qv_count > 0:
         plotter = Plotter()
-        plotter.one_simulation_graph()
-    elif sarsa_count == q_count == expected_sarsa_count == qv_count:
-        plotter = Plotter()
-        plotter.average_graph(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
+        plotter.histogram(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
 
 
 # Adds header information to csv file.

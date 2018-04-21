@@ -1,9 +1,8 @@
-# The Plotter plots total reward vs. time-step. There are two scenarios: either one of each learning agent is graphed or
-# multiple learning agents of each type are averaged and graphed. The external module responsible for graphing is
-# matplotlib. Also needed is numpy, which is responsible for averaging the total rewards of multiple agents. The output
-# csv generated in main.py is required to generate a graph.
+# The Plotter is capable of creating different types of graphs. The external module responsible for graphing is
+# matplotlib. Numpy is needed for averaging and pandas is needed for parsing the csv file quickly. The output
+# csv generated in main.py is required to generate a graph. Each graph type has its own static method responsible
+# for generating the graph.
 
-import csv
 import matplotlib.pyplot as mpl
 import numpy as np
 import time
@@ -11,69 +10,6 @@ from pandas import read_csv
 
 
 class Plotter(object):
-
-    # This method only generates a graph when one of each type of learning agent is simulated.
-    # That is, one Q-learning agent, one SARSA agent, one Expected SARSA agent,
-    # and one QV-Learning agent. The total reward data is read from the output.csv file and appended
-    # into empty lists; one for each learning agent. This data is then graphed versus the time-steps.
-    @staticmethod
-    def one_simulation_graph():
-
-        # The total reward per time-step is read from the output.csv file
-        # and appended into lists for each agent type.
-        print("\nGenerating one simulation graph...")
-        total_reward_q = []
-        total_reward_sarsa = []
-        total_reward_expected_sarsa = []
-        total_reward_qv = []
-
-        # Open the file to read it.
-        with open('output.csv', 'r') as csvfile:
-            # Each value is separated by a comma.
-            plots = csv.reader(csvfile, delimiter=',')
-            # Skips header row.
-            next(csvfile)
-            # For each row, identify what kind of agent and according
-            # to the type, append the total reward value to the
-            # corresponding list.
-            for row in plots:
-                if row[1] == "Q-learning":
-                    total_reward_q.append(float(row[6]))
-                if row[1] == "SARSA":
-                    total_reward_sarsa.append(float(row[6]))
-                if row[1] == "Expected SARSA":
-                    total_reward_expected_sarsa.append(float(row[6]))
-                if row[1] == "QV-learning":
-                    total_reward_qv.append(float(row[6]))
-
-        # Title of the graph.
-        mpl.title("One Simulation")
-
-        # Axis labels for the graph.
-        mpl.xlabel('Time steps')
-        mpl.ylabel('Total Reward')
-
-        # Each agent runs for a certain number of time-steps.
-        # These numbers may or may not be different.
-        timesteps_q = list(range(len(total_reward_q)))
-        timesteps_sarsa = list(range(len(total_reward_sarsa)))
-        timesteps_expected_sarsa = list(range(len(total_reward_expected_sarsa)))
-        timesteps_qv = list(range(len(total_reward_qv)))
-
-        print("Plotting...")
-        # Plot the x and y values for each agent and label the plot.
-        mpl.plot(timesteps_q, total_reward_q, label='Q-Learning')
-        mpl.plot(timesteps_sarsa, total_reward_sarsa, label='SARSA')
-        mpl.plot(timesteps_expected_sarsa, total_reward_expected_sarsa, label='Expected SARSA')
-        mpl.plot(timesteps_qv, total_reward_qv, label='QV-Learning')
-
-        # Display the legend.
-        mpl.legend()
-
-        # Show the graph on the screen.
-        print("Done generating one simulation graph.")
-        mpl.show()
-
     # This method generates a graph when there are more than one agent of each type.
     # The entire output.csv file is read and split into lists for each type of learning agent.
     # This list is then split again into individual agents per type of learning agent.
@@ -119,7 +55,7 @@ class Plotter(object):
                     agent_temp.append(int(row[7]))
             agent_list.append(agent_temp)
 
-        # Slow, bult in csv method.
+        # Slow, built in python csv method.
         # for _ in number_of_agents:
         #     agent_temp = []
         #     with open('output.csv', 'r') as csvfile:
@@ -128,19 +64,6 @@ class Plotter(object):
         #             if int(row['Agent']) == _:
         #                 agent_temp.append(int(row['Reward']))
         #         agent_list.append(agent_temp)
-
-        # Slower method of the below code.
-        # for _ in range(q_count):
-        #     q_agents.append(agent_list[_])
-        # SARSA agents are always second, so start reading agents in after q_count elements of the list, and read until
-        #  the sarsa_count + q_count index. Repeat for the remaining agents.
-        # for _ in range(q_count, sarsa_count + q_count):
-        #     sarsa_agents.append(agent_list[_])
-        # for _ in range(q_count + sarsa_count, sarsa_count + q_count + expected_sarsa_count):
-        #     expected_sarsa_agents.append(agent_list[_])
-        # for _ in range(sarsa_count + q_count + expected_sarsa_count,
-        #                sarsa_count + q_count + expected_sarsa_count + qv_count):
-        #     qv_agents.append(agent_list[_])
 
         #  The program always simulates the exact number of agents input by the user.
         #  This allows us to cleverly move agent data from agent_list to the corresponding learning agent list.
@@ -214,3 +137,89 @@ class Plotter(object):
         print("Graphing process took " + str(int(time.time()) - starting_time) + " seconds.")
         print("Done generating average graph.")
         mpl.show()
+
+    # This method generates a histogram for each reinforcement learning algorithm.
+    # The histogram shows how many timesteps it takes to reach a certain reward value for multiple agents.
+    @staticmethod
+    def histogram(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count):
+
+        # Store the starting time for later calculating compute time.
+        starting_time = int(time.time())
+        print("\nGenerating histogram...")
+
+        # The specified reward value to track.
+        reward_value = 25000
+
+        # In order to parse the output.csv file for multiple agents of each type,
+        # there must be a list of numbers that correspond to the agent number in output.csv.
+        number_of_agents = list(x + 1 for x in range(len(agent_record)))
+
+        # All of the data is put in a list at first, then is filtered into a list for the specific algorithm.
+        agent_list = []
+
+        # Open the output.csv file in read mode.
+        # Read all timesteps into agent_list.
+        print("Reading output.csv...")
+        df = read_csv('output.csv', skiprows=1, delimiter=',', )
+        print("Parsing output.csv...")
+        for _ in number_of_agents:
+            for row in df.itertuples():
+                if int(row[1]) == _ and int(row[7]) == reward_value:
+                    agent_list.append(int(row[4]))
+                    break
+
+        # The data in agent_list will be split into these lists.
+        q_agents = []
+        sarsa_agents = []
+        expected_sarsa_agents = []
+        qv_agents = []
+
+        for _ in range(q_count):
+            q_agents.append(agent_list.pop())
+
+        for _ in range(sarsa_count):
+            sarsa_agents.append(agent_list.pop())
+
+        for _ in range(expected_sarsa_count):
+            expected_sarsa_agents.append(agent_list.pop())
+
+        for _ in range(qv_count):
+            qv_agents.append(agent_list.pop())
+
+        # Histograms are generated per learning algorithm.
+        if q_count > 0:
+            mpl.hist(q_agents, list(x * 1000 for x in range(1, int((max(q_agents)) / 1000 + 2))), histtype="bar",
+                     rwidth=0.5)
+            mpl.title(str(reward_value) + " total reward with" + str(q_count) + " Q-Learning")
+            mpl.xlabel("Time-step")
+            mpl.ylabel("Number of Times")
+            mpl.show()
+
+        if sarsa_count > 0:
+            mpl.hist(sarsa_agents, list(x * 1000 for x in range(1, int((max(sarsa_agents)) / 1000 + 2))),
+                     histtype="bar",
+                     rwidth=0.5)
+            mpl.title(str(reward_value) + " total reward with" + str(sarsa_count) + " SARSA")
+            mpl.xlabel("Time-step")
+            mpl.ylabel("Number of Times")
+            mpl.show()
+
+        if expected_sarsa_count > 0:
+            mpl.hist(expected_sarsa_agents,
+                     list(x * 1000 for x in range(1, int((max(expected_sarsa_agents)) / 1000 + 2))),
+                     histtype="bar", rwidth=0.5)
+            mpl.title(str(reward_value) + " total reward with" + str(expected_sarsa_count) + " Expected SARSA")
+            mpl.xlabel("Time-step")
+            mpl.ylabel("Number of Times")
+            mpl.show()
+
+        if qv_count > 0:
+            mpl.hist(qv_agents, list(x * 1000 for x in range(1, int((max(qv_agents)) / 1000 + 2))), histtype="bar",
+                     rwidth=0.5)
+            mpl.title(str(reward_value) + " total reward with" + str(qv_count) + " QV-Learning")
+            mpl.xlabel("Time-step")
+            mpl.ylabel("Number of Times")
+            mpl.show()
+
+        # Print compute time.
+        print("Graphing process took " + str(int(time.time()) - starting_time) + " seconds.")
