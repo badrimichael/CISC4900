@@ -85,7 +85,7 @@ def main():
 
     if sarsa_count > 0 or q_count > 0 or expected_sarsa_count > 0 or qv_count > 0:
         plotter = Plotter()
-        plotter.histogram(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
+        plotter.step_histogram(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
 
 
 # Adds header information to csv file.

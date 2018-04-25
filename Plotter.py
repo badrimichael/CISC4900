@@ -55,16 +55,6 @@ class Plotter(object):
                     agent_temp.append(int(row[7]))
             agent_list.append(agent_temp)
 
-        # Slow, built in python csv method.
-        # for _ in number_of_agents:
-        #     agent_temp = []
-        #     with open('output.csv', 'r') as csvfile:
-        #         plots = csv.DictReader(csvfile, delimiter=',')
-        #         for row in plots:
-        #             if int(row['Agent']) == _:
-        #                 agent_temp.append(int(row['Reward']))
-        #         agent_list.append(agent_temp)
-
         #  The program always simulates the exact number of agents input by the user.
         #  This allows us to cleverly move agent data from agent_list to the corresponding learning agent list.
         #  Since Q-learning agents are always first, just transfer the first q_count agents on the top of agent_list.
@@ -173,7 +163,7 @@ class Plotter(object):
         sarsa_agents = []
         expected_sarsa_agents = []
         qv_agents = []
-
+        print("Clipping list...")
         for _ in range(q_count):
             q_agents.append(agent_list.pop())
 
@@ -185,6 +175,10 @@ class Plotter(object):
 
         for _ in range(qv_count):
             qv_agents.append(agent_list.pop())
+
+        print("Plotting...")
+        # Print compute time.
+        print("Graphing process took " + str(int(time.time()) - starting_time) + " seconds.")
 
         # Histograms are generated per learning algorithm.
         if q_count > 0:
@@ -221,5 +215,74 @@ class Plotter(object):
             mpl.ylabel("Number of Times")
             mpl.show()
 
-        # Print compute time.
+    # This method generates a step histogram with all agents on the same graph.
+    # The step histogram shows how many timesteps it takes to reach a certain reward value for multiple agents.
+    @staticmethod
+    def step_histogram(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count):
+
+        # Store the starting time for later calculating compute time.
+        starting_time = int(time.time())
+        print("\nGenerating histogram...")
+
+        # The specified reward value to track.
+        reward_value = 25000
+
+        # In order to parse the output.csv file for multiple agents of each type,
+        # there must be a list of numbers that correspond to the agent number in output.csv.
+        number_of_agents = list(x + 1 for x in range(len(agent_record)))
+
+        # All of the data is put in a list at first, then is filtered into a list for the specific algorithm.
+        agent_list = []
+
+        # The data in agent_list will be split into these lists.
+        q_agents = []
+        sarsa_agents = []
+        expected_sarsa_agents = []
+        qv_agents = []
+
+        # Open the output.csv file in read mode.
+        # Read all timesteps into agent_list.
+        print("Reading output.csv...")
+        df = read_csv('output.csv', skiprows=1, delimiter=',', )
+        print("Parsing output.csv...")
+        for _ in number_of_agents:
+            for row in df.itertuples():
+                if int(row[1]) == _ and int(row[7]) == reward_value:
+                    if str(row[2]) == "Q-learning":
+                        q_agents.append(int(row[4]))
+                    elif str(row[2]) == "SARSA":
+                        sarsa_agents.append(int(row[4]))
+                    elif str(row[2]) == "Expected SARSA":
+                        expected_sarsa_agents.append(int(row[4]))
+                    elif str(row[2]) == "QV-learning":
+                        qv_agents.append(int(row[4]))
+                    break
+
+        # Y axis.
+        y = list(x * 1000 for x in range(1, int((max(q_agents)) / 1000 + 2)))
+
+        # Each learning algorithm is plotted on the same graph.
+        print("Plotting...")
+        mpl.hist(q_agents, y, histtype="step", label="Q-Learning")
+        mpl.hist(sarsa_agents, y, histtype="step", label="SARSA")
+        mpl.hist(expected_sarsa_agents, y, histtype="step", label="Expected SARSA")
+        mpl.hist(qv_agents, y, histtype="step", label="QV-Learning")
+
+        # Graph titles and legend.
+        mpl.title(str(reward_value) + " total reward: " + str(q_count) + " agents")
+        mpl.xlabel("Time-step")
+        mpl.ylabel("Number of Times")
+        mpl.legend()
+
+        # Print compute time and show graph.
         print("Graphing process took " + str(int(time.time()) - starting_time) + " seconds.")
+        mpl.show()
+
+# def main():
+#     plt = Plotter()
+#     agent_record = list(x + 1 for x in range(800))
+#     plt.step_histogram(agent_record, 200, 200, 200, 200)
+#
+#
+# if __name__ == '__main__':
+#     main()
