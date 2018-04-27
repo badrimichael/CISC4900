@@ -19,7 +19,6 @@ from ExpectedSarsaAgent import ExpectedSarsaAgent
 from QVAgent import QVAgent
 import csv
 import time
-from Plotter import Plotter
 
 
 def main():
@@ -40,8 +39,8 @@ def main():
           "To generate an average graph, simulate the same number of Q-Learning, SARSA, Expected-SARSA,"
           " and QV-Learning agents.\n")
 
-    optimal_count = int(input("How many Optimal agents would you like to simulate?\n"))
-    random_count = int(input("How many Random agents would you like to simulate?\n"))
+    # optimal_count = int(input("How many Optimal agents would you like to simulate?\n"))
+    # random_count = int(input("How many Random agents would you like to simulate?\n"))
     q_count = int(input("How many Q-learning agents would you like to simulate?\n"))
     sarsa_count = int(input("How many SARSA agents would you like to simulate?\n"))
     expected_sarsa_count = int(input("How many Expected SARSA agents would you like to simulate?\n"))
@@ -49,13 +48,13 @@ def main():
     environment_size = int(input("How many states would you like the environment to have?\n"))
 
     # Calculate the total number of agents.
-    total_agent_count = optimal_count + random_count + q_count + sarsa_count + expected_sarsa_count
+    # total_agent_count = optimal_count + random_count + q_count + sarsa_count + expected_sarsa_count
 
     # Populate agents list.
-    for _ in range(optimal_count):
-        agents.append(OptimalAgent())
-    for _ in range(random_count):
-        agents.append(RandomAgent())
+    # for _ in range(optimal_count):
+    #     agents.append(OptimalAgent())
+    # for _ in range(random_count):
+    #     agents.append(RandomAgent())
     for _ in range(q_count):
         agents.append(QAgent())
     for _ in range(sarsa_count):
@@ -77,15 +76,6 @@ def main():
     print("Agents done traversing. Check output.csv for record of simulation.")
     print("Traversal process took " + str(int(time.time()) - starting_time) + " seconds.")
     file.close()
-
-    # If certain conditions are met, produce graphs.
-    # if sarsa_count == q_count == expected_sarsa_count == qv_count:
-    #     plotter = Plotter()
-    #     plotter.average_graph(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
-
-    if sarsa_count > 0 or q_count > 0 or expected_sarsa_count > 0 or qv_count > 0:
-        plotter = Plotter()
-        plotter.step_histogram(agent_record, q_count, sarsa_count, expected_sarsa_count, qv_count)
 
 
 # Adds header information to csv file.

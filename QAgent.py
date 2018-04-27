@@ -41,6 +41,8 @@ class QAgent(LearningAgent):
                 self.current_state = next_state
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
                                   self.agent_type)
+                # if total_reward == 10000:
+                #     self.set_correct_action(2)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break

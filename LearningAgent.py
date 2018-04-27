@@ -33,7 +33,15 @@ class LearningAgent(Agent, ABC):
     q_table = {}
 
     # Probability of randomly turning an action of 1 to an action of 0.
-    random_fail = 0.10
+    random_fail = 0
+
+    # Defines the correct action needed to advance a state in the environment.
+    # It starts off as 1, and can be changed using the set method below.
+    correct_action = 1
+
+    # Set method for the correct action.
+    def set_correct_action(self, new_action):
+        self.correct_action = new_action
 
     # Learning agents can write their activities to an output file.
     @staticmethod
@@ -71,7 +79,7 @@ class LearningAgent(Agent, ABC):
     # If the action is 0 or has been changed to 0, return to the beginning of the environment.
     # If the agent has moved to the last state, give it a reward.
     def act(self, state, action, environment):
-        if action == 1:
+        if action == self.correct_action:
             if random.uniform(0, 1) < self.random_fail:
                 action = 0
                 print("Action 1 -> 0.")
@@ -82,7 +90,7 @@ class LearningAgent(Agent, ABC):
             reward = 0
             print("Agent surged to node " + str(state.state))
         # If action is 1, the agent can progress to the next state.
-        elif action == 1:
+        elif action == self.correct_action:
             state = state.next
             print("Agent moved to node " + str(state.state))
             terminal_state = False

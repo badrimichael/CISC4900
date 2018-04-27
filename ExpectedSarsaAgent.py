@@ -36,16 +36,18 @@ class ExpectedSarsaAgent(LearningAgent):
                 action = self.choose_action(self.current_state)
                 next_state, reward, terminal_state = self.act(self.current_state, action, environment)
                 total_reward += reward
-                # best_action = np.argmax(self.q(next_state))
-                # expected_return = (
-                #         (1 - self.epsilon) * self.q(next_state, best_action) + (self.epsilon / len(self.actions))
-                #         * sum(self.q(next_state, act) for act in range(len(self.actions))))
-                expected_return = np.max(self.q(next_state))
+                best_action = np.argmax(self.q(next_state))
+                expected_return = (
+                        (1 - self.epsilon) * self.q(next_state, best_action) + (self.epsilon / len(self.actions))
+                        * sum(self.q(next_state, act) for act in range(len(self.actions))))
+                # expected_return = np.max(self.q(next_state))
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
                         reward + self.gamma * expected_return - self.q(self.current_state, action))
                 self.current_state = next_state
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
                                   self.agent_type)
+                # if total_reward == 10000:
+                #     self.set_correct_action(2)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break
