@@ -43,6 +43,16 @@ class LearningAgent(Agent, ABC):
     def set_correct_action(self, new_action):
         self.correct_action = new_action
 
+    # When called, this method chooses a random action to replace the current correct action.
+    # The possible actions that can be chosen are all actions in the list except the current
+    # correct action.
+    def choose_random_action(self):
+        new_action = random.choice(self.actions)
+        if new_action != self.correct_action:
+            return new_action
+        else:
+            self.choose_random_action()
+
     # Learning agents can write their activities to an output file.
     @staticmethod
     def write_to_csv(writer, episode, state, total_reward, time, action, index, agent_type):
