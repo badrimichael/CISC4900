@@ -20,15 +20,16 @@ class RandomAgent(Agent):
     def traverse(self, environment, index, csv_writer):
         print("Random Agent:")
         time = 0
+        reward = 0
         for episode in range(self.number_of_episodes):
             self.current_state = environment.starting_node
-            reward = 0
             terminal_state = False
             for step in range(self.number_of_steps):
                 time = time + 1
                 random_surge = random.uniform(0, 1)
                 if self.current_state == environment.starting_node and random_surge < self.probability_of_surge:
                     self.surge(environment)
+                    random_advance = 1
                 else:
                     random_advance = random.randint(0, len(environment.nodes) - 1)
                     if random_advance == 1:
@@ -38,7 +39,7 @@ class RandomAgent(Agent):
                         self.current_state = environment.starting_node
                         print("Agent moved to starting state.")
                 if self.current_state.reward is True:
-                    reward = 100
+                    reward = reward + 100
                     terminal_state = True
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, reward, time, random_advance, index,
                                   self.agent_type)

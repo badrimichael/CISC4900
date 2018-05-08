@@ -2,7 +2,7 @@
 # learn. Agents are created outside of the environment and then inserted into the environment specified in traverse().
 
 # Abstract class.
-# Random needed for RNG.
+# Random needed for random number generators.
 from abc import ABC, abstractmethod
 import random
 
@@ -63,3 +63,13 @@ class Agent(ABC):
         random_advance = random.randint(1, len(environment.nodes) - 2)
         current_state = environment.nodes[random_advance]
         print("Agent surged to node " + str(current_state.state))
+
+    # Learning agents write their activities to an output file.
+    # This is necessary for analysis post-simulation.
+    @staticmethod
+    def write_to_csv(writer, episode, state, total_reward, time, action, index, agent_type):
+        file = open('output.csv', 'a')
+        writer.writerow(
+            {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
+             'Agent': index, 'Agent Type': agent_type})
+        file.close()

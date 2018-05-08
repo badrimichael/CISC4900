@@ -3,7 +3,7 @@
 # Supervisor: Dr. Stefano Ghirlanda, Brooklyn College Department of Psychology
 
 # The goal of this project is to simulate the ecological task of behavior chaining using reinforcement learning
-# algorithms
+# algorithms.
 
 # The purpose of this main method is to be as simple as possible. The environment(s) and agent(s)
 # will be created here and agents can be reused for multiple environments (see Agent.py and Environment.py).
@@ -26,7 +26,7 @@ def main():
     file = open('output.csv', 'w')
 
     # Stores agents in a list. One agent will traverse at a time
-    #  to ensure output file will be parsed properly.
+    # to ensure output file will be parsed properly.
     agents = []
     agent_record = {}
 
@@ -39,22 +39,19 @@ def main():
           "To generate an average graph, simulate the same number of Q-Learning, SARSA, Expected-SARSA,"
           " and QV-Learning agents.\n")
 
-    # optimal_count = int(input("How many Optimal agents would you like to simulate?\n"))
-    # random_count = int(input("How many Random agents would you like to simulate?\n"))
+    optimal_count = int(input("How many Optimal agents would you like to simulate?\n"))
+    random_count = int(input("How many Random agents would you like to simulate?\n"))
     q_count = int(input("How many Q-learning agents would you like to simulate?\n"))
     sarsa_count = int(input("How many SARSA agents would you like to simulate?\n"))
     expected_sarsa_count = int(input("How many Expected SARSA agents would you like to simulate?\n"))
     qv_count = int(input("How many QV-learning agents would you like to simulate?\n"))
     environment_size = int(input("How many states would you like the environment to have?\n"))
 
-    # Calculate the total number of agents.
-    # total_agent_count = optimal_count + random_count + q_count + sarsa_count + expected_sarsa_count
-
     # Populate agents list.
-    # for _ in range(optimal_count):
-    #     agents.append(OptimalAgent())
-    # for _ in range(random_count):
-    #     agents.append(RandomAgent())
+    for _ in range(optimal_count):
+         agents.append(OptimalAgent())
+    for _ in range(random_count):
+         agents.append(RandomAgent())
     for _ in range(q_count):
         agents.append(QAgent())
     for _ in range(sarsa_count):

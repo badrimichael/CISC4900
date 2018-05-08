@@ -1,7 +1,14 @@
-# Learning agents utilize some reinforcement learning algorithm to reach the terminal state of the environment.
+# Learning agents utilize some reinforcement learning algorithm to maximize their total_reward value.
+# To increase this value, learning agents must traverse an environment of n states, where n is an integer above 1.
+# Learning agents begin at the starting state of the environment and explore to determine the best possible path
+# to maximize their total_reward. The specifics of exploration are determined by the Bellman equation in the
+# traverse() method and the policy implemented.
+
 # This abstraction helps when changing a value such as epsilon or gamma, because the changes are applied to all
 # learning agents. The concrete methods defined here are actions that can be taken by any learning agent.
-
+# Numpy is needed for generating the list of decaying_alphas.
+# Random is needed for exploration (epsilon greedy policy), choosing random actions, and choosing actions to change
+# from 0 to 1.
 from abc import ABC
 from Agent import Agent
 import numpy as np
@@ -9,9 +16,9 @@ import random
 
 
 class LearningAgent(Agent, ABC):
-    # The initial reward held by an agent is always zero
+    # The initial total_reward held by an agent is always zero
     # since it has not had the chance to traverse an environment.
-    reward = 0
+    total_reward = 0
 
     # The learning rate (alpha) in the Bellman equation decreases as the episodes increase.
     # We specify a minimum alpha to ensure alpha does not decrease below this value.
@@ -33,6 +40,7 @@ class LearningAgent(Agent, ABC):
     q_table = {}
 
     # Probability of randomly turning an action of 1 to an action of 0.
+    # Change this value to a float between 0 and 1 if you want actions to change.
     random_fail = 0
 
     # Defines the correct action needed to advance a state in the environment.
@@ -44,23 +52,13 @@ class LearningAgent(Agent, ABC):
         self.correct_action = new_action
 
     # When called, this method chooses a random action to replace the current correct action.
-    # The possible actions that can be chosen are all actions in the list except the current
-    # correct action.
+    # The possible actions that can be chosen are all actions in the list except the current correct action.
     def choose_random_action(self):
         new_action = random.choice(self.actions)
         if new_action != self.correct_action:
             return new_action
         else:
             self.choose_random_action()
-
-    # Learning agents can write their activities to an output file.
-    @staticmethod
-    def write_to_csv(writer, episode, state, total_reward, time, action, index, agent_type):
-        file = open('output.csv', 'a')
-        writer.writerow(
-            {'Episode': episode, 'State': str(state.state), 'Reward': total_reward, 'Time': time, 'Action': action,
-             'Agent': index, 'Agent Type': agent_type})
-        file.close()
 
     # Initialize q table with values or update them.
     # If the current state hasn't been experienced yet, add it and zero the values for it.
@@ -84,10 +82,10 @@ class LearningAgent(Agent, ABC):
 
     # Based on current state and action, decide: where to go next,
     # if the agent has reached a terminal state, and what reward is obtained.
-    # If the action is 1, there is a chance to change that action to 0.
-    # If the action remains 1, move to the next state.
-    # If the action is 0 or has been changed to 0, return to the beginning of the environment.
-    # If the agent has moved to the last state, give it a reward.
+    # If the action is correct_action, there is a chance to change that action to 0, as long as random_fail > 0.
+    # If the action remains correct_action or was never considered to change, move to the next state.
+    # If the action is not correct_action, return to the beginning of the environment.
+    # If the agent has moved to the last state, give it a reward to be added to the total_reward running sum.
     def act(self, state, action, environment):
         if action == self.correct_action:
             if random.uniform(0, 1) < self.random_fail:

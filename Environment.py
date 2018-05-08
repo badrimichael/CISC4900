@@ -1,5 +1,5 @@
 # The environment class creates an environment of Nodes (see Node.py) based on Markov Decision Processes or finite
-# automata. Nodes are dynamically created based on the constructor argument. These nodes are held in a list of nodes.
+# automata. Nodes are automatically created based on the constructor argument. These nodes are held in a list of nodes.
 
 
 from Node import Node

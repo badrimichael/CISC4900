@@ -1,6 +1,6 @@
-# The QAgent relies on Q-learning to obtain a reward.
+# The QAgent relies on the reinforcement learning algorithm: Q-Learning to traverse the environment.
 
-# The QAgent is a LearningAgent.
+# The QAgent is a LearningAgent because it utilizes some reinforcement learning algorithm.
 # The max method from numpy module is needed in the Bellman equation.
 from LearningAgent import LearningAgent
 import numpy as np
@@ -25,7 +25,6 @@ class QAgent(LearningAgent):
 
         # For each episode, the initial state is the starting state in the environment,
         # the reward is zero'd, the alpha chosen corresponds to the number of the episode.
-        total_reward = 0
         for episode in range(self.number_of_episodes):
             self.current_state = environment.starting_node
             alpha = self.decaying_alphas[episode]
@@ -35,16 +34,16 @@ class QAgent(LearningAgent):
                 time = time + 1
                 action = self.choose_action(self.current_state)
                 next_state, reward, terminal_state = self.act(self.current_state, action, environment)
-                total_reward += reward
+                self.total_reward += reward
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
                         reward + self.gamma * np.max(self.q(next_state)) - self.q(self.current_state, action))
                 self.current_state = next_state
-                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, self.total_reward, time, action, index,
                                   self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break
-            print("Episode " + str(episode + 1) + ": " + "Reward = " + str(total_reward))
+            print("Episode " + str(episode + 1) + ": " + "Reward = " + str(self.total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
         print("Total time-steps: " + str(time))
         return time

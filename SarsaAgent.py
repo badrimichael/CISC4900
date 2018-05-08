@@ -1,6 +1,6 @@
-# The SarsaAgent relies on Sarsa to obtain a reward.
+# The SarsaAgent relies on the reinforcement learning algorithm: SARSA to traverse the environment.
 
-# The SarsaAgent is a LearningAgent.
+# The SarsaAgent is a LearningAgent because it utilizes some reinforcement learning algorithm.
 from LearningAgent import LearningAgent
 
 
@@ -23,7 +23,6 @@ class SarsaAgent(LearningAgent):
 
         # For each episode, the initial state is the starting state in the environment,
         # the reward is zero'd, the alpha chosen corresponds to the number of the episode.\
-        total_reward = 0
         for episode in range(self.number_of_episodes):
             self.current_state = environment.starting_node
             alpha = self.decaying_alphas[episode]
@@ -34,17 +33,17 @@ class SarsaAgent(LearningAgent):
                 time = time + 1
                 next_state, reward, terminal_state = self.act(self.current_state, action, environment)
                 next_action = self.choose_action(next_state)
-                total_reward += reward
+                self.total_reward += reward
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
                         reward + self.gamma * self.q(next_state, next_action) - self.q(self.current_state, action))
                 self.current_state = next_state
                 action = next_action
-                self.write_to_csv(csv_writer, episode + 1, self.current_state, total_reward, time, action, index,
+                self.write_to_csv(csv_writer, episode + 1, self.current_state, self.total_reward, time, action, index,
                                   self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
                     break
-            print("Episode " + str(episode + 1) + ": " + "Reward = " + str(total_reward))
+            print("Episode " + str(episode + 1) + ": " + "Reward = " + str(self.total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
         print("Total time-steps: " + str(time))
         return time
