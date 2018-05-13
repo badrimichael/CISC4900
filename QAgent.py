@@ -42,6 +42,9 @@ class QAgent(LearningAgent):
                                   self.agent_type)
                 if terminal_state:
                     print("Agent obtained reward.")
+                    if self.learned_reward_value > 0:
+                        if self.total_reward % self.learned_reward_value == 0:
+                            self.set_correct_action(self.choose_random_action())
                     break
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(self.total_reward))
             print("Steps taken: " + str(step + 1) + "\n")

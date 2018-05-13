@@ -47,6 +47,9 @@ class LearningAgent(Agent, ABC):
     # It starts off as 1, and can be changed using the set method below.
     correct_action = 1
 
+    # Defines whether or not the agent has learned the correct sequence.
+    learned_reward_value = 0
+
     # Set method for the correct action.
     def set_correct_action(self, new_action):
         self.correct_action = new_action
