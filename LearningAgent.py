@@ -48,6 +48,7 @@ class LearningAgent(Agent, ABC):
     correct_action = 1
 
     # Defines whether or not the agent has learned the correct sequence.
+    # Can be any positive integer.
     learned_reward_value = 0
 
     # Set method for the correct action.

@@ -15,8 +15,8 @@ class QVAgent(LearningAgent):
         self.v_table = {}
 
     # Exclusive to QVAgent.py.
-    # If a state has a reward, the value is 1. If the state doesn't have a reward, the value is 0.
     # If the state isn't in the v table yet, add it.
+    # If the state doesn't have a reward, initialize the value to 0.
     # This works similarly to the method q found in LearningAgent.py.
     def v(self, state=None):
         if state is None:
