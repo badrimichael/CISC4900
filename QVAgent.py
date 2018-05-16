@@ -46,12 +46,10 @@ class QVAgent(LearningAgent):
                 next_state, reward, terminal_state = self.act(self.current_state, action, environment)
                 next_action = self.choose_action(next_state)
                 self.total_reward += reward
-
                 self.v()[self.current_state] = self.v(self.current_state) + (alpha * (
                         reward + (self.gamma * self.v(next_state)) - self.v(self.current_state)))
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
                         reward + self.gamma * self.v(next_state) - self.q(self.current_state, action))
-
                 self.current_state = next_state
                 action = next_action
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, self.total_reward, time, action, index,

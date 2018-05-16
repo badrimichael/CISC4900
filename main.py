@@ -39,7 +39,7 @@ def main():
           "Supervisor: Dr. Stefano Ghirlanda, Brooklyn College Department of Psychology\n\n" +
           "Chaining Simulation Program: "
           "For each agent input, enter an integer greater than or equal to 0 and press the ENTER key to confirm.\n" +
-          "The environment size input must be an integer greater than 1.\n" +
+          "The environment size input must be an integer greater than 2.\n" +
           "Output CSV file will be created in the current directory. For large simulations, ensure you have enough "
           "available disk space.\n" +
           "Source code is available on GitHub: https://github.com/badrimichael/CISC4900\n" +
