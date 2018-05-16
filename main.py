@@ -1,8 +1,8 @@
 # Project Title: Simulations of Reinforcement Learning in an Ecological Task
-# Name: Michael Badri, Brooklyn College Department of Computer and Information Science
+# Author: Michael Badri, Brooklyn College Department of Computer and Information Science
 # Supervisor: Dr. Stefano Ghirlanda, Brooklyn College Department of Psychology
 
-# The goal of this project is to simulate the ecological task of behavior chaining using reinforcement learning
+# The goal of this project is to simulate the ecological task of chaining using reinforcement learning
 # algorithms.
 
 # The purpose of this main method is to be as simple as possible. The environment(s) and agent(s)
@@ -34,10 +34,16 @@ def main():
     writer = format_output_csv(file)
 
     # Prompt user for number of agents of each type and environment size.
-    print("For each input, enter an positive integer and press the ENTER key to confirm.\n" +
-          "If you simulate any Optimal or Random agents, a graph will not be generated.\n" +
-          "To generate an average graph, simulate the same number of Q-Learning, SARSA, Expected-SARSA,"
-          " and QV-Learning agents.\n")
+    print("Project Title: Simulations of Reinforcement Learning in an Ecological Task\n" +
+          "Author: Michael Badri, Brooklyn College Department of Computer and Information Science\n" +
+          "Supervisor: Dr. Stefano Ghirlanda, Brooklyn College Department of Psychology\n\n" +
+          "Chaining Simulation Program: "
+          "For each agent input, enter an integer greater than or equal to 0 and press the ENTER key to confirm.\n" +
+          "The environment size input must be an integer greater than 1.\n" +
+          "Output CSV file will be created in the current directory. For large simulations, ensure you have enough "
+          "available disk space.\n" +
+          "Source code is available on GitHub: https://github.com/badrimichael/CISC4900\n" +
+          "Supplementary graphing software also available on GitHub: https://github.com/badrimichael/CISC4900-R\n")
 
     optimal_count = int(input("How many Optimal agents would you like to simulate?\n"))
     random_count = int(input("How many Random agents would you like to simulate?\n"))
@@ -47,11 +53,13 @@ def main():
     qv_count = int(input("How many QV-learning agents would you like to simulate?\n"))
     environment_size = int(input("How many states would you like the environment to have?\n"))
 
+    total_number_of_agents = optimal_count + random_count + q_count + sarsa_count + expected_sarsa_count + qv_count
+
     # Populate agents list.
     for _ in range(optimal_count):
-         agents.append(OptimalAgent())
+        agents.append(OptimalAgent())
     for _ in range(random_count):
-         agents.append(RandomAgent())
+        agents.append(RandomAgent())
     for _ in range(q_count):
         agents.append(QAgent())
     for _ in range(sarsa_count):
@@ -70,8 +78,9 @@ def main():
     starting_time = int(time.time())
     for agent in agents:
         agent_record[agents.index(agent) + 1] = agent.traverse(environment, agents.index(agent) + 1, writer)
-    print("Agents done traversing. Check output.csv for record of simulation.")
-    print("Traversal process took " + str(int(time.time()) - starting_time) + " seconds.")
+    print(str(total_number_of_agents) + " agents have completed traversal of environment size " + str(
+        environment_size) + ".\n" + "Check output.csv for record of simulation.\n" +
+          "Traversal process took " + str(int(time.time()) - starting_time) + " seconds.")
     file.close()
 
 
