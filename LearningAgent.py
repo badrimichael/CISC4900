@@ -39,31 +39,6 @@ class LearningAgent(Agent, ABC):
     # This table is initialized with values in the q method.
     q_table = {}
 
-    # Probability of randomly turning an action of 1 to an action of 0.
-    # Change this value to a float between 0 and 1 if you want actions to change.
-    random_fail = 0
-
-    # Defines the correct action needed to advance a state in the environment.
-    # It starts off as 1, and can be changed using the set method below.
-    correct_action = 1
-
-    # Defines whether or not the agent has learned the correct sequence.
-    # Can be any positive integer.
-    learned_reward_value = 0
-
-    # Set method for the correct action.
-    def set_correct_action(self, new_action):
-        self.correct_action = new_action
-
-    # When called, this method chooses a random action to replace the current correct action.
-    # The possible actions that can be chosen are all actions in the list except the current correct action.
-    def choose_random_action(self):
-        new_action = random.choice(self.actions)
-        if new_action != self.correct_action:
-            return new_action
-        else:
-            self.choose_random_action()
-
     # Initialize q table with values or update them.
     # If the current state hasn't been experienced yet, add it and zero the values for it.
     # If the current state has been experienced, return the state and action value.
@@ -78,9 +53,9 @@ class LearningAgent(Agent, ABC):
     # Chooses an action based on state.
     # If the RNG rolls less than epsilon, randomly choose an action based on available actions.
     # Otherwise, choose an action based on experience.
-    def choose_action(self, state):
+    def choose_action(self, state, environment):
         if random.uniform(0, 1) < self.epsilon:
-            return random.choice(self.actions)
+            return random.choice(environment.actions)
         else:
             return np.argmax(self.q(state))
 
@@ -91,27 +66,27 @@ class LearningAgent(Agent, ABC):
     # If the action is not correct_action, return to the beginning of the environment.
     # If the agent has moved to the last state, give it a reward to be added to the total_reward running sum.
     def act(self, state, action, environment):
-        if action == self.correct_action:
-            if random.uniform(0, 1) < self.random_fail:
+        if action == environment.correct_action:
+            if random.uniform(0, 1) < environment.random_fail_percentage:
                 action = 0
-                print("Action 1 -> 0.")
+                print("Correct Action -> 0.")
         if state == environment.starting_node and random.uniform(0, 1) < self.probability_of_surge:
             random_advance = random.randint(1, len(environment.nodes) - 2)
             state = environment.nodes[random_advance]
             terminal_state = False
             reward = 0
-            print("Agent surged to node " + str(state.state))
+            print(self.agent_type + " agent surged to node " + str(state.state))
         # If action is 1, the agent can progress to the next state.
-        elif action == self.correct_action:
+        elif action == environment.correct_action:
             state = state.next
-            print("Agent moved to node " + str(state.state))
+            print(self.agent_type + " agent moved to node " + str(state.state))
             terminal_state = False
             reward = 0
         # Else, the agent is returned to the starting state of the environment.
         else:
             reward = 0
             state = environment.starting_node
-            print("Agent moved to starting state.")
+            print(self.agent_type + " agent moved to starting state.")
             terminal_state = False
         # If current state is a reward, give reward.
         if state.reward is True:

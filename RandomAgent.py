@@ -34,17 +34,17 @@ class RandomAgent(Agent):
                     random_advance = random.randint(0, len(environment.nodes) - 1)
                     if random_advance == 1:
                         self.current_state = self.current_state.next
-                        print("Agent moved to node " + str(self.current_state.state))
+                        print(self.agent_type + " agent moved to node " + str(self.current_state.state))
                     else:
                         self.current_state = environment.starting_node
-                        print("Agent moved to starting state.")
+                        print(self.agent_type + " agent moved to starting state.")
                 if self.current_state.reward is True:
                     reward = reward + 100
                     terminal_state = True
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, reward, time, random_advance, index,
                                   self.agent_type)
                 if terminal_state:
-                    print("Agent obtained reward.")
+                    print(self.agent_type + " agent obtained reward.")
                     break
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(reward))
             print("Steps taken: " + str(step + 1) + "\n")

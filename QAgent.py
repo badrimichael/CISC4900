@@ -32,7 +32,7 @@ class QAgent(LearningAgent):
             # terminal or not. Then the q-learning function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
-                action = self.choose_action(self.current_state)
+                action = self.choose_action(self.current_state, environment)
                 next_state, reward, terminal_state = self.act(self.current_state, action, environment)
                 self.total_reward += reward
                 self.q(self.current_state)[action] = self.q(self.current_state, action) + alpha * (
@@ -41,10 +41,10 @@ class QAgent(LearningAgent):
                 self.write_to_csv(csv_writer, episode + 1, self.current_state, self.total_reward, time, action, index,
                                   self.agent_type)
                 if terminal_state:
-                    print("Agent obtained reward.")
-                    if self.learned_reward_value > 0:
-                        if self.total_reward % self.learned_reward_value == 0:
-                            self.set_correct_action(self.choose_random_action())
+                    print(self.agent_type + " agent obtained reward.")
+                    if environment.learned_reward_value > 0:
+                        if self.total_reward % environment.learned_reward_value == 0:
+                            environment.set_correct_action(environment.choose_random_action())
                     break
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(self.total_reward))
             print("Steps taken: " + str(step + 1) + "\n")
