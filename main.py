@@ -53,7 +53,11 @@ def main():
         learned_reward_value = int(
             input("Obstacle: At what interval of total reward will the environment change the correct action?"
                   + " (Can be any integer greater than or equal to 0.)\n"))
-        environment = Environment(environment_size, random_fail_percentage, learned_reward_value)
+        random_action_change_percentage = float(
+            input("Obstacle: Probability that the environment's correct action will change per" +
+                  " time step? (Must be a float 0 - 1.)\n"))
+        environment = Environment(environment_size, random_fail_percentage, learned_reward_value,
+                                  random_action_change_percentage)
         with open('environment.o', 'wb') as environment_output:
             pickle.dump(environment, environment_output)
     else:
@@ -96,9 +100,17 @@ def main():
     starting_time = int(time.time())
     for agent in agents:
         agent_record[agents.index(agent) + 1] = agent.traverse(environment, agents.index(agent) + 1, writer)
-    print(str(total_number_of_agents) + " agent(s) have completed traversal of environment size " + str(
-        len(environment.nodes)) + ".\n" + "Check output.csv for record of simulation.\n" +
-          "Traversal process took " + str(int(time.time()) - starting_time) + " seconds.")
+
+    # After traversal, print relevant simulation information.
+    print(str(total_number_of_agents) + " agent(s) have completed traversal of environment size: " + str(
+        len(environment.nodes)) + ".\n")
+    print("Obstacle: Probability of a correct action changing to an incorrect action: " +
+          str(environment.random_fail_percentage))
+    print("Obstacle: Interval of total reward that triggers an action change: " + str(environment.learned_reward_value))
+    print("Obstacle: Probability of the correct action chaning to a random action per time step: " +
+          str(environment.random_action_change_percentage))
+    print("Traversal process took " + str(int(time.time()) - starting_time) + " seconds.\n" +
+          "Check output.csv for a record of the simulation.")
     file.close()
 
 

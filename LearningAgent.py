@@ -90,6 +90,6 @@ class LearningAgent(Agent, ABC):
             terminal_state = False
         # If current state is a reward, give reward.
         if state.reward is True:
-            reward = 100
+            reward = 1
             terminal_state = True
         return state, reward, terminal_state

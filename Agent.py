@@ -17,7 +17,7 @@ class Agent(ABC):
 
     # The number of steps (actions) to take per episode.
     # This can be any integer > 0.
-    number_of_steps = 100
+    number_of_steps = 50
 
     # The state where the Agent is currently located.
     # Initially set to None.

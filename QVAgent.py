@@ -43,6 +43,7 @@ class QVAgent(LearningAgent):
             # terminal or not. Then the QV function is calculated and the agent moves to the next state.
             for step in range(self.number_of_steps):
                 time = time + 1
+                environment.random_action_change()
                 next_state, reward, terminal_state = self.act(self.current_state, action, environment)
                 next_action = self.choose_action(next_state, environment)
                 self.total_reward += reward
@@ -56,9 +57,7 @@ class QVAgent(LearningAgent):
                                   self.agent_type)
                 if terminal_state:
                     print(self.agent_type + " agent obtained reward.")
-                    if environment.learned_reward_value > 0:
-                        if self.total_reward % environment.learned_reward_value == 0:
-                            environment.set_correct_action(environment.choose_random_action())
+                    environment.process_terminal_state_obstacles(self.total_reward)
                     break
             print("Episode " + str(episode + 1) + ": " + "Reward = " + str(self.total_reward))
             print("Steps taken: " + str(step + 1) + "\n")

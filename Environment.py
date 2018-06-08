@@ -28,10 +28,14 @@ class Environment(object):
     # Can be any positive integer.
     learned_reward_value = 0
 
+    # Defines a probability that the action will change per time step.
+    random_action_change_percentage = 0
+
     # Constructor that instantiates nodes based on num_of_states
     # argument. The next field of each node is determined here.
     # Reward is added to the final node in the environment.
-    def __init__(self, num_of_states, random_fail_percentage, learned_reward_value):
+    # The nodes and actions lists are required in the constructor, so their contents can be serialized.
+    def __init__(self, num_of_states, random_fail_percentage, learned_reward_value, random_action_change_percentage):
         self.nodes = []
         self.actions = []
         nodes = self.nodes
@@ -47,8 +51,15 @@ class Environment(object):
         self.starting_node = nodes[0]
         self.random_fail_percentage = random_fail_percentage
         self.learned_reward_value = learned_reward_value
+        self.random_action_change_percentage = random_action_change_percentage
         for node in self.nodes:
             self.actions.append(node.state)
+
+    # Processes environment obstacles that rely on terminal state being reached.
+    def process_terminal_state_obstacles(self, total_reward):
+        if self.learned_reward_value > 0:
+            if total_reward % self.learned_reward_value == 0:
+                self.set_correct_action(self.choose_random_action())
 
     # Set method for the correct action.
     def set_correct_action(self, new_action):
@@ -60,7 +71,12 @@ class Environment(object):
         new_action = self.correct_action
         while new_action == self.correct_action:
             new_action = random.choice(self.actions)
+        print("Action changed.")
         return new_action
+
+    def random_action_change(self):
+        if random.uniform(0, 1) < self.random_action_change_percentage:
+            self.set_correct_action(self.choose_random_action())
 
     # Prints each node in nodes list.
     def print(self):
