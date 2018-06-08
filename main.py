@@ -96,7 +96,7 @@ def main():
         agents.append(QVAgent())
 
     # For each agent in the list of agents, begin traversal.
-    print("\nRunning...")
+    print("\nRunning simulation...")
     starting_time = int(time.time())
     for agent in agents:
         agent_record[agents.index(agent) + 1] = agent.traverse(environment, agents.index(agent) + 1, writer)
