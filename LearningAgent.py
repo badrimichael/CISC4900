@@ -13,6 +13,7 @@ from abc import ABC
 from Agent import Agent
 import numpy as np
 import random
+import math
 
 
 class LearningAgent(Agent, ABC):
@@ -39,6 +40,8 @@ class LearningAgent(Agent, ABC):
     # This table is initialized with values in the q method.
     q_table = {}
 
+    tau = 0.5
+
     # Initialize q table with values or update them.
     # If the current state hasn't been experienced yet, add it and zero the values for it.
     # If the current state has been experienced, return the state and action value.
@@ -54,10 +57,21 @@ class LearningAgent(Agent, ABC):
     # If the RNG rolls less than epsilon, randomly choose an action based on available actions.
     # Otherwise, choose an action based on experience.
     def choose_action(self, state, environment):
-        if random.uniform(0, 1) < self.epsilon:
-            return random.choice(environment.actions)
-        else:
-            return np.argmax(self.q(state))
+        if environment.policy == "epsilon-greedy":
+            if random.uniform(0, 1) < self.epsilon:
+                return random.choice(environment.actions)
+            else:
+                return np.argmax(self.q(state))
+        elif environment.policy == "softmax":
+            action_probabilities = []
+            for _ in range(len(environment.actions)):
+                action_probabilities.append(0)
+            for action in range(len(environment.actions)):
+                softmax_numerator = math.exp(self.q(state, action) / self.tau)
+                softmax_denominator = sum(
+                    math.exp(self.q(state, b) / self.tau) for b in range(len(environment.actions)))
+                action_probabilities[action] = softmax_numerator / softmax_denominator
+            return np.random.choice(range(len(environment.actions)), p=action_probabilities)
 
     # Based on current state and action, decide: where to go next,
     # if the agent has reached a terminal state, and what reward is obtained.

@@ -31,11 +31,14 @@ class Environment(object):
     # Defines a probability that the action will change per time step.
     random_action_change_percentage = 0
 
+    policy = None
+
     # Constructor that instantiates nodes based on num_of_states
     # argument. The next field of each node is determined here.
     # Reward is added to the final node in the environment.
     # The nodes and actions lists are required in the constructor, so their contents can be serialized.
-    def __init__(self, num_of_states, random_fail_percentage, learned_reward_value, random_action_change_percentage):
+    def __init__(self, num_of_states, random_fail_percentage, learned_reward_value, random_action_change_percentage,
+                 policy):
         self.nodes = []
         self.actions = []
         nodes = self.nodes
@@ -52,6 +55,7 @@ class Environment(object):
         self.random_fail_percentage = random_fail_percentage
         self.learned_reward_value = learned_reward_value
         self.random_action_change_percentage = random_action_change_percentage
+        self.policy = policy
         for node in self.nodes:
             self.actions.append(node.state)
 

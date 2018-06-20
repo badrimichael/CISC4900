@@ -50,6 +50,7 @@ def main():
         random_fail_percentage = float(
             input("Obstacle: Probability that environment will change correct action to an incorrect action?" +
                   " (Must be a float 0 - 1.)\n"))
+        policy = str(input("Enter the policy you wish to use: epsilon-greedy or softmax.\n"))
         learned_reward_value = int(
             input("Obstacle: At what interval of total reward will the environment change the correct action?"
                   + " (Can be any integer greater than or equal to 0.)\n"))
@@ -57,7 +58,7 @@ def main():
             input("Obstacle: Probability that the environment's correct action will change per" +
                   " time step? (Must be a float 0 - 1.)\n"))
         environment = Environment(environment_size, random_fail_percentage, learned_reward_value,
-                                  random_action_change_percentage)
+                                  random_action_change_percentage, policy)
         with open('environment.o', 'wb') as environment_output:
             pickle.dump(environment, environment_output)
     else:
