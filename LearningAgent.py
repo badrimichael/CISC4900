@@ -40,7 +40,8 @@ class LearningAgent(Agent, ABC):
     # This table is initialized with values in the q method.
     q_table = {}
 
-    tau = 0.5
+    # Temperature parameter for softmax action selection.
+    tau = 0.2
 
     # Initialize q table with values or update them.
     # If the current state hasn't been experienced yet, add it and zero the values for it.
